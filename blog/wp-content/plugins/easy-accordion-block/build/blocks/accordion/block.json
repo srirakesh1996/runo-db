@@ -1,0 +1,45 @@
+{
+  "apiVersion": 2,
+  "name": "esab/accordion",
+  "version": "0.1.0",
+  "title": "Accordion",
+  "category": "esab-blocks",
+  "description": "Easy Accordion allows you to create an accordion or faqs section easily.",
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "customClassName": true
+  },
+  "keywords": [
+    "accordion",
+    "faq",
+    "accordion block"
+  ],
+  "example": {
+    "attributes": {
+      "heading": "Accordion Heading"
+    }
+  },
+  "providesContext": {
+    "esab/enableBoxShadow": "enableBoxShadow",
+    "esab/boxShadowPalette": "boxShadowPalette",
+    "esab/headingTag": "headingTag",
+    "esab/iconPosition": "iconPosition",
+    "esab/collapsedIcon": "collapsedIcon",
+    "esab/expandedIcon": "expandedIcon",
+    "esab/enableBadge": "enableBadge",
+    "esab/enableSubHeading": "enableSubHeading",
+    "esab/subHeadingTag": "subHeadingTag",
+    "esab/shVisibleOn": "shVisibleOn",
+    "esab/badgeVPosition": "badgeVPosition",
+    "esab/badgeHPosition": "badgeHPosition"
+  },
+  "textdomain": "easy-accordion-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": [
+    "file:./view.js",
+    "jquery"
+  ]
+}

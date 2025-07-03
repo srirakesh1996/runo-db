@@ -1,0 +1,231 @@
+/*
+Theme Name: Runo
+Author: Your Name
+Description: Custom WordPress theme for Runo company using Bootstrap
+Version: 1.0
+*/
+
+.active>.page-link,
+.page-link.active {
+    z-index: 3;
+    color: var(--bs-pagination-active-color);
+    background-color: #f44336 !important;
+    border-color: #f44336 !important;
+}
+
+.page-link {
+    color: #f44336 !important;
+}
+
+.active>.page-link,
+.page-link.active {
+    color: #fff !important;
+}
+
+.page-link:focus {
+    z-index: 3;
+    color: var(--bs-pagination-focus-color);
+    background-color: var(--bs-pagination-focus-bg);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(244 67 54 / 29%) !important;
+}
+
+.blogs .card-title {
+    line-height: 1.5;
+}
+
+.blog-desc {
+    font-size: 15px !important;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.blog-content {
+    color: #222222;
+}
+
+.blog-feat {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wp-block-image img {
+    width: 60% !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .wp-block-image img {
+        width: 100% !important;
+    }
+
+    .blog-feat {
+        width: 100%;
+    }
+}
+
+.post-content .blog-content {
+    text-align: left !important;
+}
+
+.accordion-button::after {
+    content: '+';
+    font-size: 1.5rem;
+    float: right;
+    transition: transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: '–';
+}
+
+.wp-block-esab-accordion {
+    margin-top: 20px !important;
+}
+
+.esab__head {
+    background: #fff !important;
+}
+
+.esab__head .esab__icon svg,
+.esab__head .esab__icon svg path {
+    fill: #222222 !important;
+}
+
+.esab__active {
+    border-color: #f44336 !important;
+    background: #f443361f !important;
+}
+
+.esab__heading_tag {
+    color: #222222 !important;
+}
+
+.wp-block-esab-accordion-child.esab__active_accordion {
+    border-color: #f44336 !important;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 100px;
+    z-index: 0;
+}
+
+.ez-toc-title-container {
+    text-align: center !important;
+
+}
+
+.blog-content #ez-toc-container {
+
+    display: none !important;
+}
+
+#ez-toc-container {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+
+#ez-toc-container .ez-toc-title {
+    font-size: 30px !important;
+    font-weight: 600px !important;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #f3f3f3;
+    position: fixed;
+    top: 85px;
+    left: 0;
+    z-index: 99;
+    transition: top 0.3s ease;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #f44336;
+    width: 0%;
+    transition: width 0.2s ease;
+}
+
+@media (max-width: 768px) {
+    .progress-container {
+        top: 67px !important;
+    }
+
+    .progress-container.scrolled {
+        top: 67px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1038px) {
+    .progress-container {
+        top: 100px !important;
+    }
+
+    .progress-container.scrolled {
+        top: 100px !important;
+    }
+}
+
+@media (min-width: 1040px) and (max-width: 1366px) {
+    .progress-container {
+        top: 83px !important;
+    }
+
+    .progress-container.scrolled {
+        top: 83px !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .progress-container {
+        top: 69px !important;
+    }
+
+    .progress-container.scrolled {
+        top: 69px !important;
+    }
+}
+
+@media (min-width: 1367px) {
+    .progress-container {
+        top: 86px !important;
+    }
+
+    .progress-container.scrolled {
+        top: 86px !important;
+    }
+}
+
+@media (min-width: 1600px) {
+    .progress-container {
+        top: 89px !important;
+    }
+
+    .progress-container.scrolled {
+        top: 89px !important;
+    }
+}
+
+.ez-toc-js-icon-con {
+    display: none !important;
+}
+
+html {
+    scroll-padding-top: 120px;
+    /* Adjust based on your header height */
+    scroll-behavior: smooth;
+}
+
+.blog-content #ez-toc-container {
+
+    display: none !important;
+}

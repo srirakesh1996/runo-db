@@ -1,0 +1,946 @@
+# Copyright (C) 2025 Zakaria Binsaifullah
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Accordion Block 1.3.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-accordion-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-03T10:12:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: easy-accordion-block\n"
+
+#. Plugin Name of the plugin
+#: plugin.php
+#: inc/Admin/Admin.php:67
+msgid "Easy Accordion Block"
+msgstr ""
+
+#. Description of the plugin
+#: plugin.php
+msgid "Create beautiful accordions in the Gutenberg editor."
+msgstr ""
+
+#. Author of the plugin
+#: plugin.php
+msgid "Zakaria Binsaifullah"
+msgstr ""
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://makegutenblock.com"
+msgstr ""
+
+#: inc/Admin/Admin.php:49
+#: inc/Admin/Admin.php:50
+msgid "Easy Accordion"
+msgstr ""
+
+#: inc/Admin/Admin.php:70
+msgid "Easy Accordion Block is a Gutenberg block plugin that allows you to create accordion blocks with ease in Gutenberg Editor without any coding knowledge"
+msgstr ""
+
+#: inc/Admin/Admin.php:74
+msgid "See Demos"
+msgstr ""
+
+#: inc/Admin/Admin.php:84
+msgid "Help and Support"
+msgstr ""
+
+#: inc/Admin/Admin.php:93
+msgid "Video Tutorial"
+msgstr ""
+
+#: inc/Admin/Admin.php:96
+msgid "Watch the video tutorial to learn how to use the plugin. It will help you start your own design quickly."
+msgstr ""
+
+#: inc/Admin/Admin.php:105
+msgid "Get Support"
+msgstr ""
+
+#: inc/Admin/Admin.php:108
+msgid "If you find any issue or have any suggestion, please let me know."
+msgstr ""
+
+#: inc/Admin/Admin.php:111
+msgid "Support"
+msgstr ""
+
+#: inc/Admin/Admin.php:116
+msgid "Spread Your Love"
+msgstr ""
+
+#: inc/Admin/Admin.php:119
+msgid "If you like this plugin, please share your opinion"
+msgstr ""
+
+#: inc/Admin/Admin.php:122
+msgid "Rate the Plugin"
+msgstr ""
+
+#: inc/Admin/Admin.php:127
+msgid "Similar Blocks"
+msgstr ""
+
+#: inc/Admin/Admin.php:130
+msgid "Want to get more similar blocks, please visit my website"
+msgstr ""
+
+#: inc/Admin/Admin.php:133
+msgid "Visit Our Website"
+msgstr ""
+
+#: inc/Admin/Admin.php:140
+msgid "Need to Hire Us?"
+msgstr ""
+
+#: inc/Admin/Admin.php:143
+msgid "Available for any freelance projects. Please feel free to share your project detail with us."
+msgstr ""
+
+#: inc/Admin/Admin.php:147
+msgid "Send Email"
+msgstr ""
+
+#: inc/Admin/Admin.php:150
+msgid "Send Message"
+msgstr ""
+
+#: inc/Plugin/Category.php:35
+#: src/blocks/accordion/accordion-child/accordion.js:20
+msgid "Accordion"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/accordion.js:21
+msgid "Acts as Child Block for Easy Accordion Block"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/edit.js:111
+#: src/blocks/accordion/accordion-child/edit.js:150
+msgid "heading…."
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/edit.js:122
+msgid "write subheading."
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/edit.js:162
+#: src/blocks/accordion/accordion-child/save.js:123
+msgid "collapsed icon"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/edit.js:171
+#: src/blocks/accordion/accordion-child/save.js:132
+msgid "expanded icon"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/edit.js:186
+msgid "type content or press / to add block.."
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:50
+#: src/blocks/accordion/accordion-child/inspector.js:58
+msgid "Disable this accordion"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:53
+#: src/blocks/accordion/accordion-child/inspector.js:59
+msgid "Disabled all activities. Works on frontend only"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:64
+msgid "Make it active on Load"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:67
+msgid "You have made it Active on Load"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:71
+#: src/blocks/accordion/accordion-child/inspector.js:77
+msgid "Enable link"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:82
+msgid "Link"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:84
+msgid "Wrapper"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:87
+msgid "Only Text"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:88
+msgid "Whole Head"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:89
+msgid "Additional Icon"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:95
+msgid "URL"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:108
+msgid "Select Link Icon"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:117
+#: src/blocks/accordion/accordion-child/inspector.js:207
+msgid "Badge"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:121
+msgid "Badge Text"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:122
+msgid "Skip this field if you do not want to show badge"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:133
+msgid "Icon Size"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:142
+#: src/blocks/accordion/inspector.js:1083
+msgid "Icon Gap"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:154
+#: src/blocks/accordion/accordion-child/inspector.js:170
+#: src/blocks/accordion/accordion-child/inspector.js:186
+msgid "Icon Color"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:209
+#: src/blocks/accordion/inspector.js:804
+#: src/blocks/accordion/inspector.js:849
+#: src/blocks/accordion/inspector.js:1327
+msgid "Typography"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:214
+#: src/blocks/accordion/inspector.js:1066
+msgid "Gap"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:235
+#: src/blocks/accordion/inspector.js:632
+#: src/blocks/accordion/inspector.js:720
+#: src/blocks/accordion/inspector.js:989
+#: src/blocks/accordion/inspector.js:1150
+#: src/blocks/accordion/inspector.js:1244
+#: src/blocks/accordion/inspector.js:1342
+#: src/blocks/accordion/inspector.js:1468
+msgid "Border Radius"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:247
+#: src/blocks/accordion/inspector.js:732
+#: src/blocks/accordion/inspector.js:1001
+#: src/blocks/accordion/inspector.js:1162
+#: src/blocks/accordion/inspector.js:1256
+#: src/blocks/accordion/inspector.js:1354
+#: src/blocks/accordion/inspector.js:1480
+msgid "Padding"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:259
+#: src/blocks/accordion/inspector.js:809
+#: src/blocks/accordion/inspector.js:822
+#: src/blocks/accordion/inspector.js:835
+#: src/blocks/accordion/inspector.js:866
+#: src/blocks/accordion/inspector.js:882
+#: src/blocks/accordion/inspector.js:898
+#: src/blocks/accordion/inspector.js:936
+#: src/blocks/accordion/inspector.js:949
+#: src/blocks/accordion/inspector.js:962
+#: src/blocks/accordion/inspector.js:1177
+#: src/blocks/accordion/inspector.js:1208
+#: src/blocks/accordion/inspector.js:1271
+#: src/blocks/accordion/inspector.js:1302
+#: src/blocks/accordion/inspector.js:1381
+#: src/blocks/accordion/inspector.js:1412
+#: src/blocks/accordion/inspector.js:1437
+#: src/components/boxshadow-control/index.js:134
+msgid "Color"
+msgstr ""
+
+#: src/blocks/accordion/accordion-child/inspector.js:264
+#: src/blocks/accordion/inspector.js:747
+#: src/blocks/accordion/inspector.js:769
+#: src/blocks/accordion/inspector.js:791
+#: src/blocks/accordion/inspector.js:1028
+#: src/blocks/accordion/inspector.js:1050
+#: src/blocks/accordion/inspector.js:1186
+#: src/blocks/accordion/inspector.js:1217
+#: src/blocks/accordion/inspector.js:1280
+#: src/blocks/accordion/inspector.js:1311
+#: src/blocks/accordion/inspector.js:1390
+#: src/blocks/accordion/inspector.js:1421
+#: src/blocks/accordion/inspector.js:1446
+msgid "Background"
+msgstr ""
+
+#: src/blocks/accordion/constants/index.js:5
+msgid "Pallete 1"
+msgstr ""
+
+#: src/blocks/accordion/constants/index.js:9
+msgid "Pallete 2"
+msgstr ""
+
+#: src/blocks/accordion/constants/index.js:13
+msgid "Pallete 3"
+msgstr ""
+
+#: src/blocks/accordion/edit.js:141
+msgid "Add Accordion"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:132
+msgid "Allow mulitple items open"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:141
+msgid "Mulitple items can be opened."
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:142
+msgid "Open nly one item at a time."
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:147
+msgid "Allow all items to be closed"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:156
+msgid "All items can be closed."
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:157
+msgid "Kepp one item opened."
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:163
+#: src/blocks/accordion/inspector.js:176
+msgid "Badge for Accordion Item"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:170
+#: src/blocks/accordion/inspector.js:177
+msgid "badge for each accordion item"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:184
+#: src/blocks/accordion/inspector.js:197
+msgid "Enable Load More"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:191
+#: src/blocks/accordion/inspector.js:198
+msgid "Doesn't work for nested accordion"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:205
+#: src/blocks/accordion/inspector.js:215
+msgid "Enable Instant Search"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:221
+#: src/blocks/accordion/inspector.js:233
+msgid "Enable Open/Close All Button"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:241
+msgid "Search and Buttons in same line"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:251
+msgid "Reverse position"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:262
+msgid "Activator"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:264
+msgid "Select Type"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:269
+msgid "Click"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:273
+#: src/components/switcher-control/index.js:19
+msgid "Hover"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:278
+msgid "Autoplay"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:287
+msgid "Speed"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:302
+msgid "Speed in miliseconds:"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:305
+msgid "Enable Infinite Loop"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:317
+#: src/blocks/accordion/inspector.js:1064
+msgid "Open/Close All Button"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:322
+#: src/blocks/accordion/inspector.js:345
+#: src/blocks/accordion/inspector.js:491
+msgid "Text"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:329
+#: src/blocks/accordion/inspector.js:367
+msgid "Open All"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:332
+msgid "Select Icon"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:352
+#: src/blocks/accordion/inspector.js:371
+msgid "Close All"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:355
+msgid "Icon"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:378
+#: src/blocks/accordion/inspector.js:705
+msgid "Head"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:381
+msgid "Heading Tag"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:393
+#: src/blocks/accordion/inspector.js:403
+msgid "Enable Subheading"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:410
+msgid "Subheading Tag"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:421
+msgid "Visible On"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:430
+msgid "Always"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:434
+#: src/blocks/accordion/inspector.js:463
+#: src/components/switcher-control/index.js:15
+msgid "Active"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:442
+#: src/blocks/accordion/inspector.js:915
+msgid "Icons"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:444
+msgid "Change Icon Position"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:447
+msgid "Icon is on the Left Side"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:448
+msgid "Icon is on the Right Side"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:458
+msgid "Accordion Icons"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:467
+msgid "Inactive"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:474
+msgid "Select Active Icon"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:481
+msgid "Select Inactive Icon"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:489
+#: src/blocks/accordion/inspector.js:498
+#: src/blocks/accordion/inspector.js:1326
+msgid "Load More"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:503
+msgid "Initial Visible Items"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:511
+msgid "3"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:515
+msgid "Loading Type"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:524
+msgid "All"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:528
+msgid "Step"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:535
+msgid "Load Per Click"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:554
+#: src/blocks/accordion/inspector.js:1435
+msgid "Instant Search"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:556
+msgid "Placeholder"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:565
+msgid "Not Found Text"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:582
+msgid "Style as Nested Accordion"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:589
+msgid "It allows you to override the style for nested accordions."
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:592
+msgid "Container"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:594
+msgid "Items Gap"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:602
+#: src/blocks/accordion/inspector.js:851
+#: src/blocks/accordion/inspector.js:1013
+#: src/blocks/accordion/inspector.js:1123
+#: src/blocks/accordion/inspector.js:1366
+msgid "Margin"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:614
+msgid "Item"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:645
+msgid "Enable Box Shadow"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:657
+msgid "Palette"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:668
+msgid "Custom Shadow"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:679
+#: src/blocks/accordion/inspector.js:692
+#: src/blocks/accordion/inspector.js:760
+#: src/blocks/accordion/inspector.js:782
+#: src/blocks/accordion/inspector.js:1041
+#: src/blocks/accordion/inspector.js:1199
+#: src/blocks/accordion/inspector.js:1293
+#: src/blocks/accordion/inspector.js:1403
+msgid "Border Color"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:803
+msgid "Heading Text"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:848
+msgid "Subheading Text"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:917
+msgid "Size"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:925
+msgid "Icon Text Gap"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:974
+msgid "Body"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:1100
+msgid "Alignment"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:1109
+#: src/components/border-control/dimension.js:108
+#: src/constants/index.js:50
+msgid "Left"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:1113
+#: src/constants/index.js:71
+msgid "Center"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:1117
+#: src/components/border-control/dimension.js:84
+#: src/constants/index.js:93
+msgid "Right"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:1135
+msgid "Open All Button"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:1229
+msgid "Close All Button"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:1498
+msgid "Z-Index"
+msgstr ""
+
+#: src/blocks/accordion/inspector.js:1507
+msgid "Z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order."
+msgstr ""
+
+#: src/components/border-control/dimension.js:72
+#: src/constants/index.js:116
+msgid "Top"
+msgstr ""
+
+#: src/components/border-control/dimension.js:96
+#: src/constants/index.js:159
+msgid "Bottom"
+msgstr ""
+
+#: src/components/border-control/index.js:88
+msgid "Border"
+msgstr ""
+
+#: src/components/border-control/index.js:182
+#: src/components/switcher-control/index.js:11
+#: src/components/typography/constants.js:77
+#: src/components/typography/constants.js:122
+msgid "Normal"
+msgstr ""
+
+#: src/components/border-control/index.js:195
+#: src/components/typography/index.js:381
+msgid "Style"
+msgstr ""
+
+#: src/components/boxshadow-control/index.js:54
+msgid "Reset"
+msgstr ""
+
+#: src/components/boxshadow-control/index.js:106
+msgid "Position"
+msgstr ""
+
+#: src/components/boxshadow-control/index.js:151
+msgid "Horizontal"
+msgstr ""
+
+#: src/components/boxshadow-control/index.js:190
+msgid "Vertical"
+msgstr ""
+
+#: src/components/boxshadow-control/index.js:229
+msgid "Blur"
+msgstr ""
+
+#: src/components/boxshadow-control/index.js:267
+msgid "Spread"
+msgstr ""
+
+#: src/components/buttons-group/index.js:43
+msgid "Pro"
+msgstr ""
+
+#: src/components/icon-picker/index.js:58
+msgid "Choose Icon"
+msgstr ""
+
+#: src/components/icon-picker/index.js:68
+msgid "Custom Upload"
+msgstr ""
+
+#: src/components/icon-picker/index.js:76
+msgid "Easy Accordion Icons"
+msgstr ""
+
+#: src/components/icon-picker/index.js:83
+msgid "Search Icons"
+msgstr ""
+
+#: src/components/link-control/index.js:66
+msgid "Open in new tab"
+msgstr ""
+
+#: src/components/link-control/index.js:78
+msgid "Add nofollow rel"
+msgstr ""
+
+#: src/components/link-control/index.js:90
+msgid "Add sponsored rel"
+msgstr ""
+
+#: src/components/typography/constants.js:4
+#: src/components/typography/fontpicker/index.js:18
+#: src/components/typography/index.js:321
+msgid "Default"
+msgstr ""
+
+#: src/components/typography/constants.js:5
+msgid "100"
+msgstr ""
+
+#: src/components/typography/constants.js:6
+msgid "200"
+msgstr ""
+
+#: src/components/typography/constants.js:7
+msgid "300"
+msgstr ""
+
+#: src/components/typography/constants.js:8
+msgid "400"
+msgstr ""
+
+#: src/components/typography/constants.js:9
+msgid "500"
+msgstr ""
+
+#: src/components/typography/constants.js:10
+msgid "600"
+msgstr ""
+
+#: src/components/typography/constants.js:11
+msgid "700"
+msgstr ""
+
+#: src/components/typography/constants.js:12
+msgid "800"
+msgstr ""
+
+#: src/components/typography/constants.js:13
+msgid "900"
+msgstr ""
+
+#: src/components/typography/constants.js:18
+msgid "None"
+msgstr ""
+
+#: src/components/typography/constants.js:32
+msgid "Aa"
+msgstr ""
+
+#: src/components/typography/constants.js:46
+msgid "AA"
+msgstr ""
+
+#: src/components/typography/constants.js:60
+msgid "aa"
+msgstr ""
+
+#: src/components/typography/constants.js:91
+msgid "Underline"
+msgstr ""
+
+#: src/components/typography/constants.js:105
+msgid "Line Through"
+msgstr ""
+
+#: src/components/typography/constants.js:136
+msgid "Italic"
+msgstr ""
+
+#: src/components/typography/constants.js:150
+msgid "Oblique"
+msgstr ""
+
+#: src/components/typography/fontpicker/index.js:64
+msgid "Family"
+msgstr ""
+
+#: src/components/typography/fontpicker/index.js:83
+#: src/components/typography/fontpicker/index.js:84
+msgid "Font Family"
+msgstr ""
+
+#: src/components/typography/index.js:106
+msgid "Font Size"
+msgstr ""
+
+#: src/components/typography/index.js:309
+msgid "Weight"
+msgstr ""
+
+#: src/components/typography/index.js:336
+msgid "Decoration"
+msgstr ""
+
+#: src/components/typography/index.js:425
+msgid "Transform"
+msgstr ""
+
+#: src/components/typography/index.js:463
+msgid "Line Height"
+msgstr ""
+
+#: src/components/typography/index.js:684
+msgid "Letter Spacing"
+msgstr ""
+
+#: src/constants/index.js:17
+msgid "Desktop"
+msgstr ""
+
+#: src/constants/index.js:26
+msgid "Tablet"
+msgstr ""
+
+#: src/constants/index.js:36
+msgid "Mobile"
+msgstr ""
+
+#: src/constants/index.js:137
+msgid "Middle"
+msgstr ""
+
+#: src/constants/index.js:184
+msgid "Outset"
+msgstr ""
+
+#: src/constants/index.js:188
+msgid "Inset"
+msgstr ""
+
+#: src/constants/index.js:196
+msgid "Solid"
+msgstr ""
+
+#: src/constants/index.js:205
+msgid "Dashed"
+msgstr ""
+
+#: src/constants/index.js:214
+msgid "Dotted"
+msgstr ""
+
+#: src/constants/index.js:231
+#: src/constants/index.js:243
+msgid "Classic"
+msgstr ""
+
+#: src/constants/index.js:235
+#: src/constants/index.js:247
+msgid "Gradient"
+msgstr ""
+
+#: src/constants/index.js:289
+msgid "H1"
+msgstr ""
+
+#: src/constants/index.js:293
+msgid "H2"
+msgstr ""
+
+#: src/constants/index.js:297
+msgid "H3"
+msgstr ""
+
+#: src/constants/index.js:301
+msgid "H4"
+msgstr ""
+
+#: src/constants/index.js:305
+msgid "H5"
+msgstr ""
+
+#: src/constants/index.js:309
+msgid "H6"
+msgstr ""
+
+#: src/constants/index.js:313
+msgid "Div"
+msgstr ""
+
+#: src/constants/index.js:317
+msgid "P"
+msgstr ""
+
+#: src/constants/index.js:321
+msgid "Span"
+msgstr ""
+
+#: src/blocks/accordion/block.json
+msgctxt "block title"
+msgid "Accordion"
+msgstr ""
+
+#: src/blocks/accordion/block.json
+msgctxt "block description"
+msgid "Easy Accordion allows you to create an accordion or faqs section easily."
+msgstr ""
+
+#: src/blocks/accordion/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr ""
+
+#: src/blocks/accordion/block.json
+msgctxt "block keyword"
+msgid "faq"
+msgstr ""
+
+#: src/blocks/accordion/block.json
+msgctxt "block keyword"
+msgid "accordion block"
+msgstr ""
