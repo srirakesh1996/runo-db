@@ -1,0 +1,20 @@
+<svg id="Component_15_1" data-name="Component 15 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_125" data-name="Rectangle 125" width="72" height="72" transform="translate(281.327 3742.327)" fill="none" stroke="#f05936" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_80" data-name="Rectangle 80" width="100" height="100" rx="20" fill="#fff"/>
+  <g id="Mask_Group_16" data-name="Mask Group 16" transform="translate(-267.327 -3728.633)" clip-path="url(#clip-path)">
+    <g id="Group_442" data-name="Group 442" transform="translate(285.748 3753.473)">
+      <g id="Group_443" data-name="Group 443" transform="translate(0 0)">
+        <circle id="Ellipse_16" data-name="Ellipse 16" cx="7.901" cy="7.901" r="7.901" transform="translate(23.68 1.569)" fill="none" stroke="#f05936" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <circle id="Ellipse_17" data-name="Ellipse 17" cx="5.349" cy="5.349" r="5.349" transform="translate(1.568 37.444)" fill="none" stroke="#f05936" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <circle id="Ellipse_18" data-name="Ellipse 18" cx="5.349" cy="5.349" r="5.349" transform="translate(26.232 37.444)" fill="none" stroke="#f05936" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <circle id="Ellipse_19" data-name="Ellipse 19" cx="5.349" cy="5.349" r="5.349" transform="translate(50.896 37.444)" fill="none" stroke="#f05936" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Path_3415" data-name="Path 3415" d="M2.206,21.536V17.767A10.318,10.318,0,0,1,12.524,7.449H41.218A10.318,10.318,0,0,1,51.532,17.767v3.769" transform="translate(4.71 15.907)" fill="none" stroke="#f05936" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <line id="Line_22" data-name="Line 22" y2="20.072" transform="translate(31.58 17.371)" fill="none" stroke="#f05936" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

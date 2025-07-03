@@ -1,0 +1,21 @@
+<svg id="Component_14_1" data-name="Component 14 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_118" data-name="Rectangle 118" width="72" height="72" transform="translate(281.327 3742.327)" fill="none" stroke="#f05936" stroke-width="3"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_123" data-name="Rectangle 123" width="56.546" height="63.31" transform="translate(-3 -3)" fill="none" stroke="#f05936" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_75" data-name="Rectangle 75" width="100" height="100" rx="20" fill="#fff"/>
+  <g id="Mask_Group_15" data-name="Mask Group 15" transform="translate(-267.327 -3727.831)" clip-path="url(#clip-path)">
+    <g id="Group_440" data-name="Group 440" transform="translate(292.054 3749.673)">
+      <g id="Group_439" data-name="Group 439" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_119" data-name="Rectangle 119" width="20.859" height="32.18" rx="1.311" transform="translate(1.527 23.602)" fill="none" stroke="#f05936" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <rect id="Rectangle_120" data-name="Rectangle 120" width="20.859" height="16.386" rx="1.311" transform="translate(1.527 1.528)" fill="none" stroke="#f05936" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <rect id="Rectangle_121" data-name="Rectangle 121" width="20.859" height="32.18" rx="1.311" transform="translate(28.16 1.528)" fill="none" stroke="#f05936" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <rect id="Rectangle_122" data-name="Rectangle 122" width="20.859" height="16.386" rx="1.311" transform="translate(28.16 39.397)" fill="none" stroke="#f05936" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

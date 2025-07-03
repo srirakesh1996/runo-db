@@ -1,0 +1,70 @@
+﻿# Runo – World’s First AI-Powered SIM-Based Call CRM
+
+
+## Overview
+
+
+Runo is an AI-powered, mobile-first CRM with SIM-based call management. No cloud telephony. Auto-log calls, track leads, add notes, get AI summaries, and manage sales workflow.
+
+
+## Products
+
+
+- [Call Management CRM](https://runo.ai/product/call-management-crm): AI-powered mobile-first Call Management CRM App with SIM-based calling, automated dialer, call tracking, AI call summaries, and live lead status in one app.
+- [Auto Dialer](https://runo.ai/product/auto-dialer-software): Automated SIM-based auto dialer for call centers and outbound sales. Integrated with Runo CRM to boost outreach, productivity, lead tracking, and call efficiency.
+- [Call Center App](https://runo.ai/product/call-center-app): AI-powered call center app for outbound sales teams, with mobile CRM, automated dialer, call recording, agent tracking, and lead management for call centers.
+- [Telecaller App](https://runo.ai/product/telecaller-app): AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.
+- [Lead Management CRM](https://runo.ai/product/lead-management-crm): AI-enabled lead management CRM app that tracks every lead from allocation to closure, providing real-time updates to boost sales efficiency for SMB teams.
+
+
+## Pricing and Contact
+
+
+- [Pricing](https://runo.ai/pricing): Experience Runo with full access during your 10-day free trial. Choose a pricing plan that fits your business needs across quarterly, half yearly or yearly options.
+- [Contact Us](https://runo.ai/contact): Contact the Runo team for any questions or feedback.
+- [Login](https://web.runo.in/): Access point for existing users to log into their Runo accounts.
+- [Request a Demo](https://runo.ai/#): A form for potential customers to request a demonstration of Runo's features.
+
+
+## Features and Integrations
+
+
+- [See All Features](https://runo.ai/#features): A comprehensive list of all features offered by Runo, showcasing its capabilities.
+- [API Documentation](https://docs.runo.in/): Technical documentation for developers looking to integrate Runo with other applications or services.
+- [Integrations](https://runo.ai/integrations): Information on how Runo can be integrated with other tools and platforms to enhance functionality.
+
+
+## Company Information
+
+
+- [About Us](https://runo.ai/about-us): Background information about Runo, its mission, and its team.
+- [Newsroom](https://runo.ai/newsroom): Updates and news related to Runo, including press releases and announcements.
+- [Become a Partner](https://runo.ai/partners): Information on partnership opportunities with Runo.
+
+
+## Support and Resources
+
+
+- [FAQ](https://runo.ai/faq): Frequently asked questions regarding Runo's services and features.
+- [Blog](https://blog.runo.in/): Articles and insights related to CRM, sales management, and industry trends.
+
+
+## Security and Compliance
+
+
+- [Terms & Conditions](https://runo.ai/terms-and-conditions): The legal terms governing the use of Runo's services.
+- [Usage Policy](https://runo.ai/cancellation-and-refund-policy): Guidelines on the acceptable use of Runo's platform.
+- [Data Security](https://runo.ai/data-security): Information on how Runo ensures the security and privacy of user data.
+
+
+## Privacy and Policies
+
+
+- [privacy policy](https://runo.ai/privacy-policy): This document outlines the privacy practices of Runo, detailing how user data is collected, used, and protected.
+
+
+## Contact Information
+
+
+- Email: [care@runo.in](mailto:care@runo.in)
+- Phone: [+91 8179880074](tel:+91 8179880074)

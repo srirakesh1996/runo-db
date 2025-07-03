@@ -1,0 +1,1868 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>SIM-Based Telecaller App with Built-In CRM</title>
+    <meta name="description"
+        content="AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.">
+    <meta name="keywords"
+        content="Telecaller app, telecalling software, crm for telecalling, telecall app, telecaller software, telecaller crm, telecalling crm, telecalling crm software">
+    <!-- Updated Open Graph tags -->
+    <meta property="og:title" content="SIM-Based Telecaller App with Built-In CRM">
+    <meta property="og:description"
+        content="AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.">
+    <!-- Updated Twitter tags -->
+    <meta name="twitter:title" content="SIM-Based Telecaller App with Built-In CRM">
+    <meta name="twitter:description"
+        content="AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.">
+    <link rel="canonical" href="https://runo.ai/product/telecaller-app" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!-- SEO Meta -->
+    <meta name="robots" content="index, follow">
+    <!-- changed from no-index -->
+    <meta name="language" content="English">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://runo.ai/img/og/telecaller.png">
+    <meta property="og:url" content="https://runo.ai/img/og/telecaller.png">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://runo.ai/img/og/telecaller.png">
+    <meta name="twitter:url" content="https://runo.ai/img/og/telecaller.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" sizes="16x16">
+    <link rel="preload" as="style" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../css/slicknav.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/runo.css">
+    <!-- Animate.css and WOW.js -->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
+         <script>
+         	document.addEventListener("DOMContentLoaded", () => {
+         		new WOW().init();
+         	});
+         </script>-->
+    <!-- Font Awesome (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Swiper CSS (from CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <!-- Swiper JS (CDN, defer to reduce INP impact) -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- intl-tel-input -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/css/intlTelInput.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/intlTelInput.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M7SSPG7W');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a SIM-based telecaller app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A SIM-based telecaller app allows your team to make business calls using their phone’s SIM card. It also helps manage leads, track calls, and follow up with prospects, all from within the app, without relying on cloud telephony."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Runo work for telecalling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Runo lets agents call from their own SIM, update lead details, get follow-up reminders, and log calls. Managers can track performance and call activity in real time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is this different from cloud or VoIP apps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cloud or VoIP apps rely on internet-based calling using virtual or masked numbers, which often get flagged or ignored by customers. Runo uses your team’s actual SIM numbers, so calls appear like regular mobile calls and are more likely to be answered. Unlike cloud systems, Runo doesn’t need internet, PBX, or complex setup. It works directly from your phone, with better call quality and higher connect rates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I track outgoing and incoming calls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Runo tracks and logs both outgoing and incoming calls made through the app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it support call recording?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All calls are automatically recorded and stored securely for future reference."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Runo offer CRM integration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Runo has a built-in CRM and also integrates with tools like Zoho, LeadSquared, and others."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I monitor agent performance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can view call activity, follow-up progress, and live agent status in one dashboard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this suitable for remote or field teams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Runo works anywhere your SIM works, making it perfect for remote and on-the-go teams."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I automate follow-ups or reminders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The app automatically reminds agents when it’s time to follow up on leads."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my call data secure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Runo encrypts and protects all call logs, recordings, and lead data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is this app meant for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Runo is ideal for any business that depends on telecalling, including sales teams, customer support teams, and telecalling agencies in industries like real estate, finance, education, and healthcare."
+      }
+    }
+  ]
+}
+
+</script>
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7SSPG7W" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Preloader Start -->
+    <div class="runo-preloader">
+        <div class="runo-preloader-inner">
+            <div class="runo-spinner"></div>
+            <div class="runo-logo">
+                <img src="../img/logo.png" alt="Runo Loading">
+            </div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Modal -->
+    <div class="modal fade" id="requestDemoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="custom-modal-box">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5>Get in touch now!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form id="demo-form" method="POST" data-page-name="Tele Caller"
+                            data-uuid="3e7c9135-f6b0-494c-adf9-0d4a6eecf486">
+                            <div class="mb-3">
+                                <input type="text" name="your_name" class="form-control" id="name" placeholder="Name" />
+                                <small class="text-danger d-none" id="nameError">Name is required.</small>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="your_email" class="form-control" id="email"
+                                    placeholder="Email Address" />
+                                <small class="text-danger d-none" id="emailError">Valid email is required.</small>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" name="your_phone" class="form-control" id="phone"
+                                    placeholder="Phone Number" autocomplete="tel" />
+                                <small class="text-danger d-none" id="phoneError">Enter a valid phone number.</small>
+                            </div>
+                            <div class="mb-3">
+                                <select name="agents" class="form-select" id="agents">
+                                    <option value="" disabled selected style="color: #858585;">Number of Calling Agents
+                                    </option>
+                                    <option value="50+">50+</option>
+                                    <option value="11-50">11-50</option>
+                                    <option value="1-10">1-10</option>
+                                </select>
+                                <small class="text-danger d-none" id="agentsError">Please select an option.</small>
+                            </div>
+                            <p style="font-size: 12px;">
+                                By submitting this form, I agree to the <a href="../privacy-policy"
+                                    target="_blank">privacy policy</a>.
+                            </p>
+                            <button type="submit" id="demo-form-btn" class="btn-default btn-highlighted"
+                                style="width: 100%;">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        jQuery(function ($) {
+            const phoneInput = document.querySelector("#phone");
+            const iti = window.intlTelInput(phoneInput, {
+                initialCountry: "auto", // <-- add this line
+                geoIpLookup: function (callback) {
+
+                    fetch('https://ipapi.co/json/')
+                        .then(res => {
+
+                            return res.json();
+                        })
+                        .then(data => {
+
+                            const countryCode = (data && data.country_code) ? data.country_code.toLowerCase() : 'in';
+
+                            callback(countryCode);
+                        })
+                        .catch(err => {
+                            console.error("geoIpLookup error:", err);
+                            callback('in');
+                        });
+                },
+                separateDialCode: true,
+                utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js",
+            });
+            const fakeNumbers = [
+                "1234567890", "0000000000", "1111111111", "2222222222",
+                "3333333333", "4444444444", "5555555555", "6666666666",
+                "7777777777", "8888888888", "9999999999"
+            ];
+
+            const countryLengthMap = {
+                in: [10], // India
+                ae: [9], // United Arab Emirates
+                us: [10], // United States
+                ca: [10], // Canada
+                gb: [10, 11], // United Kingdom
+                sa: [9], // Saudi Arabia
+                ph: [10], // Philippines
+                id: [10, 11], // Indonesia
+                sg: [8], // Singapore
+                au: [9], // Australia
+                nz: [8, 9], // New Zealand
+                pk: [10], // Pakistan
+                bd: [10], // Bangladesh
+                lk: [9], // Sri Lanka
+                ng: [10, 11], // Nigeria
+                ke: [9], // Kenya
+                za: [9, 10], // South Africa
+                my: [9, 10], // Malaysia
+                th: [9, 10], // Thailand
+                vn: [9, 10], // Vietnam
+                kr: [9, 10, 11], // South Korea
+                jp: [10, 11], // Japan
+                cn: [11], // China
+                hk: [8], // Hong Kong
+                tw: [9, 10], // Taiwan
+                de: [10, 11], // Germany
+                fr: [9, 10], // France
+                it: [10], // Italy
+                es: [9], // Spain
+                br: [10, 11], // Brazil
+                mx: [10], // Mexico
+                ar: [10, 11], // Argentina
+                ru: [10], // Russia
+                tr: [10], // Turkey
+                eg: [10, 11], // Egypt
+                iq: [10], // Iraq
+                gt: [8] // Guatemala
+            };
+
+            function getMaxLengthForCountry() {
+                const countryCode = iti.getSelectedCountryData().iso2;
+                const allowedLengths = countryLengthMap[countryCode];
+                return allowedLengths ? Math.max(...allowedLengths) : 15; // fallback to max 15 digits
+            }
+
+            let phoneTouched = false;
+
+            $("#phone").on("focus input", function () {
+                phoneTouched = true;
+                validatePhone();
+            });
+
+            // Restrict phone input to digits only and max length live
+            phoneInput.addEventListener("input", () => {
+                phoneInput.value = phoneInput.value.replace(/\D/g, "");
+                const maxLength = getMaxLengthForCountry();
+                if (phoneInput.value.length > maxLength) {
+                    phoneInput.value = phoneInput.value.slice(0, maxLength);
+                }
+                validatePhone();
+            });
+
+            // Trim phone on country change & revalidate
+            phoneInput.addEventListener("countrychange", () => {
+                const maxLength = getMaxLengthForCountry();
+                phoneInput.value = phoneInput.value.slice(0, maxLength);
+                validatePhone();
+            });
+
+            // Validation helper functions
+
+            function validateName() {
+                const val = $("#name").val().trim();
+                if (!val || val.length > 30) {
+                    $("#nameError").removeClass("d-none");
+                    return false;
+                }
+                $("#nameError").addClass("d-none");
+                return true;
+            }
+
+            function validateEmail() {
+                const val = $("#email").val().trim();
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!val || !emailPattern.test(val)) {
+                    $("#emailError").removeClass("d-none");
+                    return false;
+                }
+                $("#emailError").addClass("d-none");
+                return true;
+            }
+
+            function validatePhone() {
+                const phoneNational = phoneInput.value;
+                const selectedCountry = iti.getSelectedCountryData().iso2;
+                const validLengths = countryLengthMap[selectedCountry];
+                if (!phoneTouched) {
+                    $("#phoneError").addClass("d-none");
+                    return false;
+                }
+                if (!iti.isValidNumber()) {
+                    $("#phoneError").text("Please enter a valid phone number.").removeClass("d-none");
+                    return false;
+                }
+
+                if (fakeNumbers.includes(phoneNational)) {
+                    $("#phoneError").text("Please enter a real phone number.").removeClass("d-none");
+                    return false;
+                }
+
+                if (validLengths && !validLengths.includes(phoneNational.length)) {
+                    $("#phoneError").text(`Phone number must be ${validLengths.join(" or ")} digits.`).removeClass("d-none");
+                    return false;
+                }
+
+                $("#phoneError").addClass("d-none");
+                return true;
+            }
+
+            function validateAgents() {
+                if (!$("#agents").val()) {
+                    $("#agentsError").removeClass("d-none");
+                    return false;
+                }
+                $("#agentsError").addClass("d-none");
+                return true;
+            }
+
+            // Live validation events for form fields
+            $("#name").on("input", validateName);
+            $("#email").on("input", validateEmail);
+            $("#phone").on("input", validatePhone);
+            $("#agents").on("change", validateAgents);
+
+            // On submit
+            $("#demo-form").on("submit", function (event) {
+                event.preventDefault();
+
+                // Validate all fields again
+                const validName = validateName();
+                const validEmail = validateEmail();
+                const validPhone = validatePhone();
+                const validAgents = validateAgents();
+
+                if (!(validName && validEmail && validPhone && validAgents)) {
+                    return; // Don't submit if any invalid
+                }
+
+                // Prepare form data
+                let formData = $(this).serializeArray().reduce(function (obj, item) {
+                    obj[item.name] = item.value;
+                    return obj;
+                }, {});
+
+                formData["your_phone"] = iti.getNumber(); // international phone
+                formData["custom_Page Name"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Landing Pages";
+
+                const uuid = $(this).data("uuid");
+
+                // Submit form (replace with your actual submit function)
+                submitForm("demo-form", formData, uuid);
+            });
+
+        });
+    </script>
+    <!-- Thank You Modal -->
+    <div class="modal fade" id="thankYouModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center p-4">
+                <img src="../img/success.webp" alt="success" style="margin:10px auto; display:block;width:50px">
+                <h5 class="mb-3">Thank you!</h5>
+                <p style="margin-bottom:5px">Your submission has been received. Our team will get back to you shortly.
+                </p>
+                <button type="button" class="btn-default btn-highlighted mt-3" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+    <!-- Header Start -->
+    <header class="main-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="/">
+                        <img src="../img/logo.png" alt="Logo" style="width: 100px;">
+                    </a>
+                    <!-- Logo End -->
+                    <!-- Main Menu Start -->
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                                <li class="nav-item submenu">
+                                    <a class="nav-link">Products</a>
+                                    <ul class="submenu-list">
+                                        <li class="nav-item"><a class="nav-link" href="call-management-crm">Call
+                                                Management
+                                                CRM</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="lead-management-crm">Lead
+                                                Management
+                                                CRM</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="auto-dialer-software">Auto
+                                                Dialer</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="call-center-app">Call Center
+                                                App</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="telecaller-app">Telecaller
+                                                App</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                                <li class="nav-item"><a class="header-btn-plain track-btn" data-label="Login - Header"
+                                        href="https://web.runo.in/">Login</a></li>
+                                <li class="nav-item">
+                                    <a class="header-btn track-btn" href="#" data-bs-toggle="modal"
+                                        data-bs-target="#requestDemoModal"
+                                        data-label="Book a Demo - Home Header">Request a
+                                        Demo</a>
+                                </li>
+                                <div class="app-header-icons">
+                                    <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506"
+                                        target="_blank">
+                                        <img src="../img/app-ico.png" width="40px"></a>
+                                    <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN"
+                                        target="_blank">
+                                        <img src="../img/play-ico.png" width="40px"></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Main Menu End -->
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <div class="telecaller-hero mb-20">
+        <div class="container">
+            <!-- Header Start -->
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Hero Content Start -->
+                    <div class="hero-content">
+                        <div class="banner-cont">
+                            <div class="section-title dark-section Custom" data--delay="0.3s" style="width: 100%">
+
+                                <ul class="breadcrumb" style="padding:0px !important">
+                                    <li><a href="/"> Home</a></li>
+                                    <li><a href="../product/">Product</a></li>
+                                    <li>Telecaller App</li>
+                                </ul>
+
+                                <h1 class=" fadeInUpCustom" data--delay="0.4s">
+                                    SIM-Based <br>
+                                    Telecaller App <br>With Built-In CRM
+                                </h1>
+                                <p>Your dialer, CRM, and live call tracker, rolled into one app
+                                </p>
+                                <ul>
+                                    <li>SIM-based calling for higher call connection rates</li>
+                                    <li>Designed for businesses with 5 to 500+ agents</li>
+                                    <li>Monitor team activity, follow-ups, and call status in
+                                        one view
+                                    </li>
+                                    <li>Works without cloud telephony or PBX setup</li>
+                                    <li>Plug and play in 30 minutes, ideal for mobile-first
+                                        teams
+                                    </li>
+                                </ul>
+                                <!-- Hero Buttons -->
+                                <div class="hero-body Custom mt-50" data--delay="0.3s" data--duration="0.7s">
+                                    <div class="hero-btn">
+                                        <a class="btn-plain track-btn" href="#" data-bs-toggle="modal"
+                                            data-bs-target="#requestDemoModal"
+                                            data-label="Book a Demo - Tele Caller App Banner">Book
+                                            a Demo</a>
+                                        <p class="banner-btn1">&nbsp;</p>
+                                    </div>
+                                    <div class="hero-btn">
+                                        <a href="https://web.runo.in" class="btn-default btn-highlighted track-btn"
+                                            data-label="Start 10-day free trial - Tele Caller App Banner">Start
+                                            10-day
+                                            free trial</a>
+                                        <p style="font-size:13px;margin:0px;text-align:center;color:#525252 !important">
+                                            No Credit Card
+                                            Required
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../img/telecaller/telecaller.webp" class="pro-img img-fluid" alt="Runo Telecaller CRM">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+    <!-- Clients Section Start -->
+    <section class="clients-section py-80">
+        <div class="container">
+            <div class="row">
+                <div class="clients-title text-center " data--delay="0.2s">
+                    <h2>Powering high-performance telecalling for 3500+ businesses</h2>
+                </div>
+            </div>
+            <div class="row mt-50">
+                <div class="clients-logos-wrapper" style="overflow: hidden; position: relative;">
+                    <div class="clients-logos">
+                        <!-- Logos (set 1) -->
+                        <img loading="lazy" src="../img/clients/hyundai.webp" alt="Hyundai" width="120" height="60">
+                        <img loading="lazy" src="../img/clients/mer-benz.webp" alt="Mercedes Benz" width="120"
+                            height="60">
+                        <img loading="lazy" src="../img/clients/upstox.webp" alt="Upstox" width="120" height="60">
+                        <img loading="lazy" src="../img/clients/ayurveda-logo.webp" alt="Ayurveda" width="120"
+                            height="60">
+                        <img loading="lazy" src="../img/clients/indira-logo.webp" alt="Indira" width="120" height="60">
+                        <img loading="lazy" src="../img/clients/pro-grad-logo.webp" alt="ProGrad" width="120"
+                            height="60">
+                        <!-- Logos (set 2 - duplicate for infinite loop) -->
+                        <img loading="lazy" src="../img/clients/hyundai.webp" alt="Hyundai" width="120" height="60"
+                            aria-hidden="true">
+                        <img loading="lazy" src="../img/clients/mer-benz.webp" alt="Mercedes Benz" width="120"
+                            height="60" aria-hidden="true">
+                        <img loading="lazy" src="../img/clients/upstox.webp" alt="Upstox" width="120" height="60"
+                            aria-hidden="true">
+                        <img loading="lazy" src="../img/clients/ayurveda-logo.webp" alt="Ayurveda" width="120"
+                            height="60" aria-hidden="true">
+                        <img loading="lazy" src="../img/clients/indira-logo.webp" alt="Indira" width="120" height="60"
+                            aria-hidden="true">
+                        <img loading="lazy" src="../img/clients/pro-grad-logo.webp" alt="ProGrad" width="120"
+                            height="60" aria-hidden="true">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients Section End -->
+    <!-- why choose runo-->
+    <section class="deals-section mt-20" id="dealsSection">
+        <div class="container">
+            <div class="row deals-content">
+                <div class="section-title text-center " data--delay="0.3s">
+                    <h2>Why Growing Teams Choose Runo</h2>
+                </div>
+                <!-- Tabs and Mobile Images -->
+                <div class="col-md-6">
+                    <div class="left-tabs" id="tabContainer">
+                        <div class="scroll-bar"></div>
+                        <div class="scroll-indicator" id="scrollIndicator"></div>
+                        <div class="btn-group-vertical w-100" id="tabButtons">
+                            <!-- Mobile Images -->
+                            <div class="scroll-bord">
+                                <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
+                                    <span>Connect 3x Faster</span>
+                                    <p>No more shuffling through Excel sheets. Leads are
+                                        auto-assigned and queued for
+                                        calling, so your agents can start dialing instantly.
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg0">
+                                    <img src="../img/telecaller/3x.webp" class="img-preview"
+                                        alt="Connect 3x Faster with Auto Lead Assignment">
+                                </div>
+                            </div>
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
+                                    <span>Independent of cloud telephony, IVRs, or PBX</span>
+                                    <p>Call directly from your phone’s SIM without needing a
+                                        cloud setup or high-speed
+                                        internet.
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
+                                    <img src="../img/telecaller/cloud-telephony.webp" class="img-preview"
+                                        alt="Call Without Cloud Telephony or PBX">
+                                </div>
+                            </div>
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
+                                    <span>Track Every Call, Follow-Up, and Agent in Real
+                                        Time</span>
+                                    <p>View live call activity, follow-up status, and team
+                                        performance in one dashboard.
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
+                                    <img src="../img/telecaller/instant-visibility.webp" class="img-preview"
+                                        alt="Real-Time Call and Agent Tracking Dashboard">
+                                </div>
+                            </div>
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
+                                    <span>Cut Telecalling Costs by 60%</span>
+                                    <p>One app replaces your dialer, CRM, and call tracker. No
+                                        extra tools. No cloud
+                                        bills.
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
+                                    <img src="../img/telecaller/cost.webp" class="img-preview"
+                                        alt="Reduce Telecalling Costs by 60%">
+                                </div>
+                            </div>
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
+                                    <span>Zero training. Get Started in 30 minutes</span>
+                                    <p>Get started quickly with no IT help. Set up, onboard your
+                                        team, and start calling
+                                        in under 30 minutes
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
+                                    <img src="../img/telecaller/zero-training.webp" class="img-preview"
+                                        alt="Get Started with Telecalling in 30 Minutes">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Desktop Image Preview -->
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="tab-content text-center">
+                        <div class="tab-pane fade show active" id="tab1">
+                            <img src="../img/telecaller/3x.webp" class="img-preview"
+                                alt="Connect 3x Faster with Auto Lead Assignment">
+                        </div>
+                        <div class="tab-pane fade" id="tab2">
+                            <img src="../img/telecaller/cloud-telephony.webp" class="img-preview"
+                                alt="Call Without Cloud Telephony or PBX">
+                        </div>
+                        <div class="tab-pane fade" id="tab3">
+                            <img src="../img/telecaller/instant-visibility.webp" class="img-preview"
+                                alt="Real-Time Call and Agent Tracking Dashboard">
+                        </div>
+                        <div class="tab-pane fade" id="tab4">
+                            <img src="../img/telecaller/cost.webp" class="img-preview"
+                                alt="Reduce Telecalling Costs by 60%">
+                        </div>
+                        <div class="tab-pane fade" id="tab5">
+                            <img src="../img/telecaller/zero-training.webp" class="img-preview"
+                                alt="Get Started with Telecalling in 30 Minutes">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scripts -->
+    <script>
+        const tabs = document.querySelectorAll(".tab-btn");
+        const panes = document.querySelectorAll(".tab-pane");
+        const scrollIndicator = document.getElementById("scrollIndicator");
+
+        let index = 0;
+        let autoSlideInterval;
+        let observerStarted = false;
+        let isAnimating = false;
+
+        function animateScrollIndicator(toTop) {
+            const startTop = parseFloat(scrollIndicator.style.top) || 0;
+            const startHeight = parseFloat(scrollIndicator.style.height) || 0;
+            const isMobile = window.innerWidth <= 767;
+            const targetHeight = isMobile ? 138 : 90;
+            const duration = 500;
+            const startTime = performance.now();
+
+            function animate(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const newTop = startTop + (toTop - startTop) * progress;
+                const newHeight = startHeight + (targetHeight - startHeight) * progress;
+
+                scrollIndicator.style.top = `${newTop}px`;
+                scrollIndicator.style.height = `${newHeight}px`;
+
+                if (progress < 1) {
+                    requestAnimationFrame(animate);
+                }
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        function updateScrollIndicator(i) {
+            const spacingTop = tabs[i].offsetTop + 35;
+            animateScrollIndicator(spacingTop);
+        }
+
+        function switchTab(i) {
+            if (isAnimating || index === i) return;
+            isAnimating = true;
+
+            // Hide all mobile images
+            const mobileImgs = document.querySelectorAll('.mobile-tab-img');
+            mobileImgs.forEach(img => img.style.display = 'none');
+
+            // Show active mobile image
+            if (window.innerWidth <= 767) {
+                const currentMobileImg = document.getElementById(`mobileImg${i}`);
+                if (currentMobileImg) currentMobileImg.style.display = 'block';
+            }
+
+            const currentPane = document.querySelector(".tab-pane.show.active");
+            const nextTab = tabs[i];
+            const nextPaneId = nextTab.getAttribute("data-bs-target");
+            const nextPane = document.querySelector(nextPaneId);
+
+            if (!nextPane) {
+                isAnimating = false;
+                return;
+            }
+
+            tabs.forEach(tab => tab.classList.remove("active"));
+            nextTab.classList.add("active");
+
+            currentPane.classList.remove("show", "active");
+            nextPane.classList.add("show", "active");
+
+            updateScrollIndicator(i);
+            index = i;
+            isAnimating = false;
+        }
+
+        function startAutoSlide() {
+            autoSlideInterval = setInterval(() => {
+                const nextIndex = (index + 1) % tabs.length;
+                switchTab(nextIndex);
+            }, 8000);
+        }
+
+        function resetAutoSlide() {
+            clearInterval(autoSlideInterval);
+            startAutoSlide();
+        }
+
+        tabs.forEach((tab, i) => {
+            tab.addEventListener("click", () => {
+                switchTab(i);
+                resetAutoSlide();
+            });
+        });
+
+        function observeSection() {
+            const section = document.getElementById("dealsSection");
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !observerStarted) {
+                        observerStarted = true;
+                        updateScrollIndicator(0);
+                        startAutoSlide();
+                    }
+                });
+            }, {
+                threshold: 0.3
+            });
+
+            observer.observe(section);
+        }
+
+        document.addEventListener("DOMContentLoaded", observeSection);
+    </script>
+    <!-- why choose runo ends-->
+    <section class="features-section mt-70" id="features">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="section-title text-center " data--delay="0.3s">
+                <h2>Features Built for High-Volume Telecalling
+                </h2>
+                <p class="feat-text">Designed to make your daily calling smoother and smarter
+                </p>
+            </div>
+            <!-- Desktop Layout -->
+            <div class="row d-none d-md-flex">
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+                    <h5>Auto Dialer</h5>
+                    <p class="feat-text">Call leads back-to-back without dialing manually. Boost
+                        call speed and focus.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
+                    <h5>Advanced Caller ID</h5>
+                    <p class="feat-text">See the lead’s name, last interaction, and notes before
+                        every call
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
+                    <h5>Call Recording</h5>
+                    <p class="feat-text">Record every call automatically for training,
+                        compliance, and audit purposes.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                    <h5>Live Performance Dashboard</h5>
+                    <p class="feat-text">Track daily calling metrics, follow-ups, and lead
+                        movement with visual reports.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                    <h5>Follow-Up Alerts</h5>
+                    <p class="feat-text">Get automatic reminders for pending follow-ups to avoid
+                        losing hot leads.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/14.webp" class="img-fluid mb-2" alt="Lead Management">
+                    <h5>Lead Management</h5>
+                    <p class="feat-text">Capture, track, and update every lead in real time from
+                        a single dashboard.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                    <h5>Auto Lead Allocation</h5>
+                    <p class="feat-text">Distribute leads instantly to the right agent based on
+                        pre-set rules.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/crm.webp" class="img-fluid mb-2" alt="CRM Integration">
+                    <h5>CRM Integration</h5>
+                    <p class="feat-text">Access lead details, call notes, and previous
+                        interactions without leaving the
+                        app.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                    <h5>Real-Time Team Tracking</h5>
+                    <p class="feat-text">Monitor agent activity live. See who is calling, who is
+                        idle, and who is behind
+                        on follow-ups.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/wa.webp" class="img-fluid mb-2" alt="WhatsApp Templates">
+                    <h5>WhatsApp Templates</h5>
+                    <p class="feat-text">Send pre-approved WhatsApp templates directly from the
+                        app after each call.
+                    </p>
+                </div>
+            </div>
+            <!-- Desktop Layout -->
+            <!-- Mobile Swiper Layout -->
+            <!-- Mobile Swiper Layout (14 Features) -->
+            <div class="swiper-container d-block d-md-none mt-4">
+                <div class="swiper-wrapper text-center">
+                    <!-- Feature Slides -->
+                    <div class="swiper-slide">
+                        <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+                        <h5>Auto Dialer</h5>
+                        <p class="feat-text">Call leads back-to-back without dialing manually.
+                            Boost call speed and
+                            focus.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
+                        <h5>Advanced Caller ID</h5>
+                        <p class="feat-text">See the lead’s name, last interaction, and notes
+                            before every call
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
+                        <h5>Call Recording</h5>
+                        <p class="feat-text">Record every call automatically for training,
+                            compliance, and audit
+                            purposes.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                        <h5>Live Performance Dashboard</h5>
+                        <p class="feat-text">Track daily calling metrics, follow-ups, and lead
+                            movement with visual
+                            reports.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                        <h5>Follow-Up Alerts</h5>
+                        <p class="feat-text">Get automatic reminders for pending follow-ups to
+                            avoid losing hot leads.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/14.webp" class="img-fluid mb-2" alt="Lead Management">
+                        <h5>Lead Management</h5>
+                        <p class="feat-text">Capture, track, and update every lead in real time
+                            from a single dashboard.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                        <h5>Auto Lead Allocation</h5>
+                        <p class="feat-text">Distribute leads instantly to the right agent based
+                            on pre-set rules.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/crm.webp" class="img-fluid mb-2" alt="CRM Integration">
+                        <h5>CRM Integration</h5>
+                        <p class="feat-text">Access lead details, call notes, and previous
+                            interactions without leaving
+                            the app.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                        <h5>Real-Time Team Tracking</h5>
+                        <p class="feat-text">Monitor agent activity live. See who is calling,
+                            who is idle, and who is
+                            behind on follow-ups.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/wa.webp" class="img-fluid mb-2" alt="WhatsApp Templates">
+                        <h5>WhatsApp Templates</h5>
+                        <p class="feat-text">Send pre-approved WhatsApp templates directly from
+                            the app after each call.
+                        </p>
+                    </div>
+                </div>
+                <!-- Custom navigation buttons below -->
+                <div class="swiper-nav-buttons text-center">
+                    <button class="swiper-custom-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="swiper-custom-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-custom-next',
+                prevEl: '.swiper-custom-prev',
+            },
+        });
+    </script>
+    <!-- spin with your team Section Start -->
+    <section class="home-app-cta  animate__animated animate__fadeInUp mt-20" data--delay="0.2s">
+        <div class="container">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
+                Give it a spin with your <br>
+                team today
+            </h2>
+            <a href="https://web.runo.in" class="btn-schedule  animate__animated animate__zoomIn mt-20"
+                data--delay="0.6s">
+                Start 10-day free trial
+            </a>
+        </div>
+    </section>
+    <!-- spin with your team Section Ends -->
+    <section class="features-section mt-70" id="features">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="section-title text-center " data--delay="0.3s">
+                <h2>
+                    Make Smarter Calls With <br>
+                    <span class="gradient-text">
+                        Runo’s AI
+                    </span> Tools
+                </h2>
+                <p class="feat-text">Power up your team with real call intelligence</p>
+            </div>
+            <!-- Desktop Layout -->
+            <div class="d-none d-md-block">
+                <!-- Feature 1 -->
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-6">
+                        <h5>AI Call Transcripts</h5>
+                        <p class="feat-text">Get a complete, accurate text version of every call. No
+                            need to re-listen
+                            or take notes.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="../img/feature/ts.webp" class="img-fluid" alt="AI Call Transcripts">
+                    </div>
+                </div>
+                <!-- Feature 2 -->
+                <div class="row align-items-center mb-5 flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <h5>AI Call Summaries</h5>
+                        <p class="feat-text">View the key highlights from each call. Quickly understand
+                            what was
+                            discussed and what needs to happen next.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="../img/feature/8.webp" class="img-fluid" alt="AI Call Summaries">
+                    </div>
+                </div>
+                <!-- Feature 3 -->
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-6">
+                        <h5>Sentiment Analysis</h5>
+                        <p class="feat-text">See whether a call went positively or negatively. Spot
+                            unhappy leads before
+                            they drop off.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="../img/feature/5.webp" class="img-fluid" alt="AI Sentiment Analysis">
+                    </div>
+                </div>
+                <!-- Feature 4 -->
+                <div class="row align-items-center mb-5 flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <h5>Meeting Notes (MoM)</h5>
+                        <p class="feat-text">Captures key takeaways, urgency level, and action items
+                            from every call for
+                            faster follow-ups.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="../img/feature/mom.webp" class="img-fluid" alt="Meeting Notes (MoM)">
+                    </div>
+                </div>
+                <!-- Feature 5 -->
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-6">
+                        <h5>Agent-Customer Talk Ratio</h5>
+                        <p class="feat-text">Check how much your agents talk vs how much the customer
+                            speaks. Helps
+                            improve listening skills and pitch balance.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="../img/feature/agent-customer.webp" class="img-fluid" alt="Agent-Customer Talk Ratio">
+                    </div>
+                </div>
+                <!-- Feature 6 -->
+                <div class="row align-items-center mb-5 flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <h5>Call Quality Scoring</h5>
+                        <p class="feat-text">Every call gets a quality score based on clarity, filler
+                            words, and
+                            interruptions. Use it for coaching & performance reviews.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="../img/feature/call-quality.webp" class="img-fluid" alt="Call Quality Scoring">
+                    </div>
+                </div>
+                <!-- Feature 7 -->
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-6">
+                        <h5>AI Assistant</h5>
+                        <p class="feat-text">Ask questions like “show me missed follow-ups” or “how many
+                            positive calls
+                            today” and get instant answers from your call data.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="../img/feature/4.webp" class="img-fluid" alt="AI Assistant">
+                    </div>
+                </div>
+            </div>
+            <!-- Desktop Layout End -->
+            <!-- Mobile Layout -->
+            <div class="feature-mobile d-block d-md-none mt-4"
+                style="background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.9) 9.63%, rgba(255, 255, 255, 0) 16.05%);">
+                <!-- Feature Cards -->
+                <div class="card border-0 shadow-sm mb-4 text-center">
+                    <img src="../img/feature/ts.webp" class="card-img-top img-fluid mb-3" alt="AI Call Transcripts">
+                    <div class="card-body">
+                        <h5 class="card-title">AI Call Transcripts</h5>
+                        <p class="feat-text">Get a complete, accurate text version of every call. No
+                            need to re-listen
+                            or take notes.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 shadow-sm mb-4 text-center">
+                    <img src="../img/feature/8.webp" class="card-img-top img-fluid mb-3" alt="AI Call Summaries">
+                    <div class="card-body">
+                        <h5 class="card-title">AI Call Summaries</h5>
+                        <p class="feat-text">View the key highlights from each call. Quickly understand
+                            what was
+                            discussed and what needs to happen next.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 shadow-sm mb-4 text-center">
+                    <img src="../img/feature/5.webp" class="card-img-top img-fluid mb-3" alt="Sentiment Analysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Sentiment Analysis</h5>
+                        <p class="feat-text">See whether a call went positively or negatively. Spot
+                            unhappy leads before
+                            they drop off.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 shadow-sm mb-4 text-center">
+                    <img src="../img/feature/mom.webp" class="card-img-top img-fluid mb-3" alt="Meeting Notes (MoM)">
+                    <div class="card-body">
+                        <h5 class="card-title">Meeting Notes (MoM)</h5>
+                        <p class="feat-text">Captures key takeaways, urgency level, and action items
+                            from every call for
+                            faster follow-ups.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 shadow-sm mb-4 text-center">
+                    <img src="../img/feature/agent-customer.webp" class="card-img-top img-fluid mb-3"
+                        alt="Agent-Customer Talk Ratio">
+                    <div class="card-body">
+                        <h5 class="card-title">Agent-Customer Talk Ratio</h5>
+                        <p class="feat-text">Check how much your agents talk vs how much the customer
+                            speaks. Helps
+                            improve listening skills and pitch balance.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 shadow-sm mb-4 text-center">
+                    <img src="../img/feature/call-quality.webp" class="card-img-top img-fluid mb-3"
+                        alt="Call Quality Scoring">
+                    <div class="card-body">
+                        <h5 class="card-title">Call Quality Scoring</h5>
+                        <p class="feat-text">Every call gets a quality score based on clarity, filler
+                            words, and
+                            interruptions. Use it for coaching & performance reviews.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 shadow-sm mb-4 text-center">
+                    <img src="../img/feature/4.webp" class="card-img-top img-fluid mb-3" alt="AI Assistant">
+                    <div class="card-body">
+                        <h5 class="card-title">AI Sales Assistant </h5>
+                        <p class="feat-text">Runo's AI Sales Assistant leverages LLMs and proprietary
+                            data to deliver
+                            instant insights, sales coaching, and streamlined workflows for enhanced
+                            productivity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Layout End -->
+        </div>
+        </div>
+    </section>
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
+        <div class="container">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
+                Take a closer look at how Runo <br>
+                works for real teams like yours
+            </h2>
+            </h2>
+            <a class="btn-schedule  animate__animated animate__zoomIn" href="#" data-bs-toggle="modal"
+                data-bs-target="#requestDemoModal"> Book a Demo</a>
+        </div>
+    </section>
+    <!-- Testimonial Section -->
+    <div class="our-tesimonial-page mt-space" style="background:url('../img/testimonial-background.webp') !important">
+        <div class="container">
+            <!-- Section Title Row with Navigation -->
+            <div class="row section-row align-items-center justify-content-between mb-4 " data--delay="0.2s">
+                <div class="col-md-8">
+                    <div class="section-title" style="text-align:left;width:100%">
+                        <h2>
+                            We’re Not Saying Runo’s Magic…
+                            But People Think It Is
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-end mt-3 mt-md-0" id="arrow-ico">
+
+                </div>
+            </div>
+            <!-- Testimonial Slider -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="testimonial-slider">
+                        <div class="swiper">
+                            <div class="swiper-wrapper" data-cursor-text="Drag" style="margin: 0;">
+                                <!-- Slide 1 -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <p>RUNO is one unique mobile-based calling solution we came across 3 months
+                                                back. It quickly helped us to streamline our sales process and added
+                                                quality
+                                                to sales pitch.
+                                            </p>
+
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="testimonial-line"></div>
+                                            <div class="people">
+                                                <div class="author-image">
+                                                    <figure class="image-anime">
+                                                        <img src="../img/testimonials/surendranath.webp" loading='lazy'
+                                                            alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="author-content">
+                                                    <h3>Dr. Surendranath Reddy Kaswa</h3>
+                                                    <p class="author-desg">Founder - Plato Digi Education</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <p>Our calling process was fairly straightforward, but we felt there was
+                                                room to improve how we
+                                                tracked calls and follow-ups. Runo helped us bring in that extra layer
+                                                of structure without
+                                                complicating anything.
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="testimonial-line"></div>
+                                            <div class="people">
+                                                <div class="author-image">
+                                                    <figure class="image-anime">
+                                                        <img src="../img/testimonials/anas-rahman.webp" loading='lazy'
+                                                            alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="author-content">
+                                                    <h3>Anas Rahman Junaid
+                                                    </h3>
+                                                    <p class="author-desg">Founder & Chief Researcher, Hurun India
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <p>Runo has transformed the way we manage our sales operations. The live
+                                                dashboard and real-time
+                                                tracking have made our processes more efficient and customer-focused.
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="testimonial-line"></div>
+                                            <div class="people">
+                                                <div class="author-image">
+                                                    <figure class="image-anime">
+                                                        <img src="../img/testimonials/monish-patel.webp" loading='lazy'
+                                                            alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="author-content">
+                                                    <h3>Manish Patel</h3>
+                                                    <p class="author-desg"> Founder and MD, MSwipe
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End swiper-wrapper -->
+                        </div>
+                        <!-- End swiper -->
+                    </div>
+
+                    <div class="testimonial-arrows">
+                        <div class="testimonial-nav-buttons gap-2">
+
+                            <button class="testimonial-prev-btn">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="testimonial-next-btn">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- End testimonial-slider -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Faqs Start -->
+    <div class="page-faqs">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center " data--delay="0.2s">
+                    <h2>Got Questions?
+                        We’ve Got Answers
+                    </h2>
+                </div>
+                <div class="col-lg-10" style="margin:0 auto">
+                    <div class="page-faqs-catagery">
+                        <div class="faq-accordion page-faq-accordion" id="runo_faqs">
+                            <div class="faq-accordion" id="accordionRuno">
+                                <!-- FAQ Items Start -->
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading1">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                            What is a SIM-based telecaller app?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse1" class="accordion-collapse collapse show"
+                                        aria-labelledby="heading1" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            A SIM-based telecaller app allows your team to make business
+                                            calls using
+                                            their phone’s SIM card. It also helps <a
+                                                href="https://runo.ai/product/lead-management-crm"
+                                                target="_blank">manage leads,</a>
+                                            track calls,
+                                            and follow
+                                            up with prospects, all from within the app, without relying on
+                                            cloud
+                                            telephony.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false"
+                                            aria-controls="collapse2">
+                                            How does Runo work for telecalling?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                        data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            <a href="https://runo.ai/" target="_blank">Runo</a> lets agents call from
+                                            their own SIM,
+                                            update lead details,
+                                            get follow-up
+                                            reminders, and log calls. Managers can track performance and
+                                            call activity
+                                            in real time.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading3">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false"
+                                            aria-controls="collapse3">
+                                            How is this different from cloud or VoIP apps?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                        data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Cloud or VoIP apps rely on internet-based calling using virtual
+                                            or masked
+                                            numbers, which often get flagged or ignored by customers. Runo
+                                            uses your
+                                            team’s actual SIM numbers, so calls appear like regular mobile
+                                            calls and are
+                                            more likely to be answered. Unlike cloud systems, Runo doesn’t
+                                            need
+                                            internet, PBX, or complex setup. It works directly from your
+                                            phone, with
+                                            better call quality and higher connect rates.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading4">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
+                                            aria-controls="collapse4">
+                                            Can I track outgoing and incoming calls?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                                        data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Yes. Runo tracks and logs both outgoing and incoming calls made
+                                            through the
+                                            app.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading5">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
+                                            aria-controls="collapse5">
+                                            Does it support call recording?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                                        data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Yes. All calls are automatically recorded and stored securely
+                                            for future
+                                            reference.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading6">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false"
+                                            aria-controls="collapse6">
+                                            Does Runo offer CRM integration?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                                        data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Yes. Runo has a built-in CRM and also <a href="https://runo.ai/integrations"
+                                                target="_blank">integrates</a> with tools like
+                                            Zoho,
+                                            LeadSquared, and others.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading7">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
+                                            aria-controls="collapse7">
+                                            Can I monitor agent performance?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+                                        data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Yes. You can view call activity, follow-up progress, and live
+                                            agent status
+                                            in one dashboard.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading8">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false"
+                                            aria-controls="collapse8">
+                                            Is this suitable for remote or field teams?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+                                        data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Yes. Runo works anywhere your SIM works, making it perfect for
+                                            remote and
+                                            on-the-go teams.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading9">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false"
+                                            aria-controls="collapse9">
+                                            Can I automate follow-ups or reminders?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
+                                        data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            The app automatically reminds agents when it’s time to follow up
+                                            on leads.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading10">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false"
+                                            aria-controls="collapse10">
+                                            Is my call data secure?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+                                        data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Yes. Runo encrypts and protects all call logs, recordings, and
+                                            lead data.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="heading11">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false"
+                                            aria-controls="collapse11">
+                                            Who is this app meant for?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+                                        data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Runo is ideal for any business that depends on telecalling,
+                                            including sales
+                                            teams, customer support teams, and telecalling agencies in
+                                            industries like
+                                            real estate, finance, education, and healthcare.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FAQ Items End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Faq End -->
+    <!-- Security Section with  animations -->
+    <section class="security-section " data--delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
+        <div class="row align-items-center">
+            <!-- Left Text -->
+            <div class="col-md-7 security-text">
+                <h2>Committed to the Highest <br> Standards of Data Protection
+                </h2>
+            </div>
+            <!-- Right Image -->
+            <div class="col-md-5 text-md-end text-center security-badges">s
+                <img src="../img/security.webp" alt="ISO Badge" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
+        <div class="container">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
+                Simplify Your <br>Telecalling Operations
+            </h2>
+            <p class="cta-p">Streamline your telecalling workflow. Runo simplifies call management, lead
+                tracking, and
+                team monitoring in one app.
+            </p>
+            <div class="store-buttons">
+                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank"
+                    class="zoom-hover"> <img loading="lazy" src="../img/ios.webp" alt="App Store" /></a>
+                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank"
+                    class="zoom-hover"> <img loading="lazy" src="../img/google-play.webp" alt="Google Play"></a>
+            </div>
+            <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
+                <span class="stars">★★★★★</span>
+                <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-light pt-5 pb-4">
+        <div class="container">
+            <div class="row gy-4">
+                <!-- About & Contact -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <h6 class="text-white fw-bold mb-3">ABOUT</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="/about-us" class="text-light text-decoration-none d-block mb-1">About Us</a></li>
+                        <li><a href="/newsroom" class="text-light text-decoration-none d-block mb-1">Newsroom</a></li>
+                        <li><a href="/partners" class="text-light text-decoration-none d-block mb-1">Become a
+                                Partner</a>
+                        </li>
+                    </ul>
+                    <h6 class="fw-bold mt-4 mb-2 text-white">Contact</h6>
+                    <a href="mailto:care@runo.ai">
+                        <p class="mb-1 text-white ptb-5"><i class="fas fa-envelope me-2"></i> care@runo.ai</p>
+                    </a>
+                    <a href="tel:+91 8179880074">
+                        <p class="text-white ptb-5"><i class="fas fa-phone me-2"></i> +91 8179880074</p>
+                    </a>
+                </div>
+                <!-- Products -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <h6 class="text-white fw-bold mb-3">PRODUCTS</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="call-management-crm" class="text-light text-decoration-none d-block mb-1">Call
+                                Management CRM</a>
+                        </li>
+                        <li><a href="lead-management-crm" class="text-light text-decoration-none d-block mb-1">Lead
+                                Management System</a>
+                        </li>
+                        <li><a href="call-center-app" class="text-light text-decoration-none d-block mb-1">Call Center
+                                App</a>
+                        </li>
+                        <li><a href="auto-dialer-software" class="text-light text-decoration-none d-block mb-1">Auto
+                                Dialer</a>
+                        </li>
+                        <li><a href="telecaller-app" class="text-light text-decoration-none d-block mb-1">Telecaller
+                                App</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Support -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <h6 class="text-white fw-bold mb-3">SUPPORT</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="/contact" class="text-light text-decoration-none d-block mb-1">Contact sales</a>
+                        </li>
+                        <li><a href="/faq" class="text-light text-decoration-none d-block mb-1">FAQ</a></li>
+                    </ul>
+                </div>
+                <!-- Resources -->
+                <div class="col-6 col-md-6 col-lg-2">
+                    <h6 class="text-white fw-bold mb-3">RESOURCES</h6>
+                    <ul class="list-unstyled">
+
+                        <li><a href="https://docs.runo.in/" class="text-light text-decoration-none d-block mb-1">API
+                                Documentation</a>
+                        </li>
+                        <li><a href="/integrations"
+                                class="text-light text-decoration-none d-block mb-1">Integrations</a></li>
+                    </ul>
+                </div>
+                <!-- Review Images -->
+                <div class="col-12 col-md-6 col-lg-2 review">
+                    <h6 class="text-white fw-bold mb-3 text-center">Review Us</h6>
+                    <a href="https://www.g2.com/products/runo-call-management-crm/reviews" target="_blank"><img
+                            loading="lazy" src="../img/reviews/1.webp" alt="G2 Review"
+                            class="img-fluid rounded mt-20"></a>
+                    <a href="https://www.capterra.com/p/214472/Call-Management-CRM/" target="_blank"> <img
+                            loading="lazy" src="../img/reviews/2.webp" alt="Capterra"
+                            class="img-fluid rounded mt-20"></a>
+                    <a href="https://crozdesk.com/software/runo-call-management-crm" target="_blank"> <img
+                            loading="lazy" src="../img/reviews/3.webp" alt="Crozdesk Rating"
+                            class="img-fluid rounded mt-20"></a>
+                    <a href="https://crozdesk.com/software/runo-call-management-crm" target="_blank"> <img
+                            loading="lazy" src="../img/reviews/4.webp" alt="Crozdesk Badge"
+                            class="img-fluid rounded-circle mt-20 badge-ico" style="width:100px;"></a>
+                </div>
+            </div>
+            <!-- Bottom Row -->
+            <div class="row align-items-center text-center text-md-start mb-20 mt-10">
+                <div class="col-md-5 mb-3 mb-md-0">
+                    <a href="/"> <img loading="lazy" src="../img/runo-white.png" alt="Runo Logo" class="img-fluid"
+                            width="200px"></a>
+                    <!--  <p class="text-white mt-20">Your partner in digital transformation smart solutions for smarter businesses</p>-->
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h6 class="text-white fw-semibold mb-20">Get the app</h6>
+                    <div class="footer-app-icons">
+                        <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506"
+                            class="zoom-hover" target="_blank"><img loading="lazy" src="../img/ios.webp" alt="App Store"
+                                style="width: 130px;"></a>
+                        <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN"
+                            class="zoom-hover" target="_blank"><img loading="lazy" src="../img/google-play.webp"
+                                alt="Google Play" style="width: 130px;"></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-semibold text-white mb-20">Follow Us</h6>
+                    <!-- Footer Social Link Start -->
+                    <div class="footer-social-links">
+                        <ul>
+                            <li><a href="https://www.facebook.com/runo.in/"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/runo.in/#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/channel/UCff-NGVdfGJgMLtyZlzVGIA"><i
+                                        class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="https://in.linkedin.com/company/runo-crm"><i
+                                        class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- Footer Social Link End -->
+                </div>
+            </div>
+            <!-- Footer Copyright -->
+            <div class="footer-copyright">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <div class="footer-copyright-text">
+                            <p>&copy; 2025 Runo. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+                                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                                <li><a href="/cancellation-and-refund-policy">Usage Policy</a></li>
+                                <li><a href="/data-security">Data Security</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Core Libraries (Deferred) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <!-- Plugins (Deferred) -->
+    <script src="../js/jquery.slicknav.js" defer></script>
+    <script src="../js/jquery.magnific-popup.min.js" defer></script>
+    <script src="../js/SmoothScroll.js" defer></script>
+    <script src="../js/parallaxie.js" defer></script>
+    <!-- WOW.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
+    <!-- Custom JS (Deferred) -->
+    <script src="../js/function.js" defer></script>
+    <!-- UTM Tracker -->
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const utmSource = params.get("utm_source");
+        const utmCampaign = params.get("utm_campaign");
+        if (utmSource) localStorage.setItem("utm_source", utmSource);
+        if (utmCampaign) localStorage.setItem("utm_campaign", utmCampaign);
+
+        // Sticky Header and Preloader JS
+
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('.header-sticky');
+            if (window.scrollY > 100) {
+                header?.classList.add('active');
+            } else {
+                header?.classList.remove('active');
+            }
+        });
+
+        window.addEventListener('load', function () {
+            const preloader = document.querySelector('.runo-preloader');
+            if (preloader) {
+                preloader.style.opacity = '0';
+                preloader.style.transition = 'opacity 0.5s ease';
+                setTimeout(() => (preloader.style.display = 'none'), 350);
+            }
+        });
+
+        //Lazy-load PopupSmart Chat Widget after 3s to improve INP 
+
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const script = document.createElement('script');
+                script.src = 'https://popupsmart.com/freechat.js';
+                script.onload = () => {
+                    window.start.init({
+                        title: 'Hi there ✌️',
+                        message: 'How can we help you? Just send us a message now to get assistance.',
+                        color: '#F9754E',
+                        position: 'right',
+                        placeholder: 'Enter your message',
+                        withText: 'Write with',
+                        viaWhatsapp: 'Or write us directly via Whatsapp',
+                        gty: 'Go to your',
+                        awu: 'and write us',
+                        connect: 'Connect now',
+                        button: 'Write us',
+                        device: 'everywhere',
+                        logo: 'https://d2r80wdbkwti6l.cloudfront.net/YaOSMtQDnhkgfH0fvFI3UkBR8O9UbXl5.jpg',
+                        person: 'https://runo.ai/img/chat-bot.jpg',
+                        services: [{
+                            name: 'whatsapp',
+                            content: '+918179880074'
+                        },
+                        {
+                            name: 'mail',
+                            content: 'care@runo.ai'
+                        },
+                        {
+                            name: 'phone',
+                            content: '+918179880074'
+                        },
+                        ],
+                    });
+                };
+                document.body.appendChild(script);
+            }, 6000);
+        });
+    </script>
+</body>
+
+</html>

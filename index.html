@@ -1,0 +1,2149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Runo – World’s First AI-Powered SIM-Based Call CRM</title>
+  <meta name="description"
+    content="Runo is an AI-powered, mobile-first CRM with SIM-based call management. No cloud telephony. Auto-log calls, track leads, add notes, get AI summaries & manage sales workflow.">
+  <link rel="canonical" href="https://runo.ai" />
+  <!-- Open Graph tags -->
+  <meta property="og:title" content="Runo – World’s First AI-Powered SIM-Based Call CRM">
+  <meta property="og:description"
+    content="Runo is an AI-powered, mobile-first CRM with SIM-based call management. No cloud telephony. Auto-log calls, track leads, add notes, get AI summaries & manage sales workflow.">
+  <!-- Twitter tags -->
+  <meta name="twitter:title" content="Runo – World’s First AI-Powered SIM-Based Call CRM">
+  <meta name="twitter:description"
+    content="Runo is an AI-powered, mobile-first CRM with SIM-based call management. No cloud telephony. Auto-log calls, track leads, add notes, get AI summaries & manage sales workflow.">
+  <!-- Character Set and Compatibility -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Responsive Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <!-- SEO Meta -->
+  <meta name="robots" content="index, follow">
+  <!-- changed from no-index -->
+  <meta name="language" content="English">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://runo.ai/img/og/og-home.png">
+  <meta property="og:url" content="https://runo.ai/img/og/og-home.png">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://runo.ai/img/og/og-home.png">
+  <meta name="twitter:url" content="https://runo.ai/img/og/og-home.png">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes="16x16">
+  <!-- Performance: Preload Fonts & Styles -->
+  <link rel="preload" as="style" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Core Styles -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="css/slicknav.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/runo.css">
+  <!-- Font Awesome (CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+  <!-- intl-tel-input -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/css/intlTelInput.min.css" />
+  <!-- JS Libraries (Defer if possible to reduce INP) -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/intlTelInput.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js"></script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M7SSPG7W');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Optional: WOW.js & Animate.css -->
+  <!--
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
+         <script>
+         	document.addEventListener("DOMContentLoaded", () => {
+         		new WOW().init();
+         	});
+         </script>
+         -->
+  <!-- Inline Hero Banner Style -->
+  <style>
+    .hero {
+      position: relative;
+      padding: 0;
+      overflow: hidden;
+      z-index: 1;
+      background: url('img/banner-img.webp') no-repeat center center;
+      background-size: cover;
+    }
+  </style>
+  <link rel="preload" as="image" href="img/banner-img.webp" type="image/webp" fetchpriority="high">
+  <!-- Desktop -->
+  <link rel="preload" as="image" href="img/hero-images/web/call-summaryw.webp" type="image/webp"
+    media="(min-width: 769px)" fetchpriority="high">
+  <!-- Mobile -->
+  <link rel="preload" as="image" href="img/hero-images/mobile/call-summary.webp" type="image/webp"
+    media="(max-width: 768px)" fetchpriority="high">
+</head>
+
+<body>
+  <div id="home">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7SSPG7W" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Preloader Start -->
+    <div class="runo-preloader">
+      <div class="runo-preloader-inner">
+        <div class="runo-spinner"></div>
+        <div class="runo-logo">
+          <img src="img/logo.png" alt="Runo Loading">
+        </div>
+      </div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Modal -->
+    <div class="modal fade" id="requestDemoModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="custom-modal-box">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5>Get in touch now!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <form id="demo-form" method="POST" data-page-name="Home" data-uuid="2eddbc70-045d-41ff-8866-dbf34f73f6f1">
+                <!-- Modal and variables -->
+                <!-- You can convert these to JS-based modal init if needed -->
+                <div class="mb-3">
+                  <input type="text" name="your_name" class="form-control" id="name" placeholder="Name" />
+                  <small class="text-danger d-none" id="nameError">Name is required.</small>
+                </div>
+                <div class="mb-3">
+                  <input type="email" name="your_email" class="form-control" id="email" placeholder="Email Address" />
+                  <small class="text-danger d-none" id="emailError">Valid email is required.</small>
+                </div>
+                <div class="mb-3">
+                  <input type="tel" name="your_phone" class="form-control" id="phone" placeholder="Phone Number"
+                    autocomplete="tel" />
+                  <small class="text-danger d-none" id="phoneError">Enter a valid phone number.</small>
+                </div>
+                <div class="mb-3">
+                  <select name="agents" class="form-select" id="agents">
+                    <option value="" disabled selected style="color: #858585;">Number of Calling Agents</option>
+                    <option value="50+">50+</option>
+                    <option value="11-50">11-50</option>
+                    <option value="1-10">1-10</option>
+                  </select>
+                  <small class="text-danger d-none" id="agentsError">Please select an option.</small>
+                </div>
+                <p style="font-size: 12px;">
+                  By submitting this form, I agree to the <a href="privacy-policy" target="_blank">privacy policy</a>.
+                </p>
+                <button type="submit" id="demo-form-btn" class="btn-default btn-highlighted"
+                  style="width: 100%;">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      jQuery(function ($) {
+        const phoneInput = document.querySelector("#phone");
+        const iti = window.intlTelInput(phoneInput, {
+          initialCountry: "auto", // <-- add this line
+          geoIpLookup: function (callback) {
+
+            fetch('https://ipapi.co/json/')
+              .then(res => {
+
+                return res.json();
+              })
+              .then(data => {
+
+                const countryCode = (data && data.country_code) ? data.country_code.toLowerCase() : 'in';
+
+                callback(countryCode);
+              })
+              .catch(err => {
+                console.error("geoIpLookup error:", err);
+                callback('in');
+              });
+          },
+          separateDialCode: true,
+          utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js",
+        });
+
+        const fakeNumbers = [
+          "1234567890", "0000000000", "1111111111", "2222222222",
+          "3333333333", "4444444444", "5555555555", "6666666666",
+          "7777777777", "8888888888", "9999999999"
+        ];
+        const countryLengthMap = {
+          in: [10],
+          ae: [9],
+          us: [10],
+          ca: [10],
+          gb: [10, 11],
+          sa: [9],
+          ph: [10],
+          id: [10, 11],
+          sg: [8],
+          au: [9],
+          nz: [8, 9],
+          pk: [10],
+          bd: [10],
+          lk: [9],
+          ng: [10, 11],
+          ke: [9],
+          za: [9, 10],
+          my: [9, 10],
+          th: [9, 10],
+          vn: [9, 10],
+          kr: [9, 10, 11],
+          jp: [10, 11],
+          cn: [11],
+          hk: [8],
+          tw: [9, 10],
+          de: [10, 11],
+          fr: [9, 10],
+          it: [10],
+          es: [9],
+          br: [10, 11],
+          mx: [10],
+          ar: [10, 11],
+          ru: [10],
+          tr: [10],
+          eg: [10, 11],
+          iq: [10],
+          gt: [8]
+        };
+
+        function getMaxLengthForCountry() {
+          const countryCode = iti.getSelectedCountryData().iso2;
+          const allowedLengths = countryLengthMap[countryCode];
+          return allowedLengths ? Math.max(...allowedLengths) : 15;
+        }
+        let phoneTouched = false;
+
+        $("#phone").on("focus input", function () {
+          phoneTouched = true;
+          validatePhone();
+        });
+
+
+        phoneInput.addEventListener("input", () => {
+          phoneInput.value = phoneInput.value.replace(/\D/g, "");
+          const maxLength = getMaxLengthForCountry();
+          if (phoneInput.value.length > maxLength) {
+            phoneInput.value = phoneInput.value.slice(0, maxLength);
+          }
+          validatePhone();
+        });
+
+        phoneInput.addEventListener("countrychange", () => {
+          const maxLength = getMaxLengthForCountry();
+          phoneInput.value = phoneInput.value.slice(0, maxLength);
+          validatePhone();
+        });
+
+        function validateName() {
+          const val = $("#name").val().trim();
+          if (!val || val.length > 30) {
+            $("#nameError").removeClass("d-none");
+            return false;
+          }
+          $("#nameError").addClass("d-none");
+          return true;
+        }
+
+        function validateEmail() {
+          const val = $("#email").val().trim();
+          const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          if (!val || !emailPattern.test(val)) {
+            $("#emailError").removeClass("d-none");
+            return false;
+          }
+          $("#emailError").addClass("d-none");
+          return true;
+        }
+
+        function validatePhone() {
+          const phoneNational = phoneInput.value;
+          const selectedCountry = iti.getSelectedCountryData().iso2;
+          const validLengths = countryLengthMap[selectedCountry];
+          if (!phoneTouched) {
+            $("#phoneError").addClass("d-none");
+            return false;
+          }
+          if (!iti.isValidNumber()) {
+            $("#phoneError").text("Please enter a valid phone number.").removeClass("d-none");
+            return false;
+          }
+
+          if (fakeNumbers.includes(phoneNational)) {
+            $("#phoneError").text("Please enter a real phone number.").removeClass("d-none");
+            return false;
+          }
+
+          if (validLengths && !validLengths.includes(phoneNational.length)) {
+            $("#phoneError").text(`Phone number must be ${validLengths.join(" or ")} digits.`).removeClass("d-none");
+            return false;
+          }
+
+          $("#phoneError").addClass("d-none");
+          return true;
+        }
+
+        function validateAgents() {
+          if (!$("#agents").val()) {
+            $("#agentsError").removeClass("d-none");
+            return false;
+          }
+          $("#agentsError").addClass("d-none");
+          return true;
+        }
+
+        $("#name").on("input", validateName);
+        $("#email").on("input", validateEmail);
+        $("#phone").on("input", validatePhone);
+        $("#agents").on("change", validateAgents);
+
+        $("#demo-form").on("submit", function (event) {
+          event.preventDefault();
+
+          const validName = validateName();
+          const validEmail = validateEmail();
+          const validPhone = validatePhone();
+          const validAgents = validateAgents();
+
+          if (!(validName && validEmail && validPhone && validAgents)) {
+            return;
+          }
+
+          const formData = $(this).serializeArray().reduce(function (obj, item) {
+            obj[item.name] = item.value;
+            return obj;
+          }, {});
+
+          formData["your_phone"] = iti.getNumber(); // international format
+          formData["custom_Page Name"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Home";
+          const uuid = $(this).data("uuid");
+
+          submitForm("demo-form", formData, uuid);
+        });
+      });
+    </script>
+    <!-- Thank You Modal -->
+    <div class="modal fade" id="thankYouModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-center p-4">
+          <img src="img/success.webp" alt="success" style="margin:10px auto; display:block;width:50px">
+          <h5 class="mb-3">Thank you!</h5>
+          <p style="margin-bottom:5px">Your submission has been received. Our team will get back to you shortly.</p>
+          <button type="button" class="btn-default btn-highlighted mt-3" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    <!-- Header Start -->
+    <header class="main-header">
+      <div class="header-sticky">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <!-- Logo Start -->
+            <a class="navbar-brand" href="/">
+              <img src="img/logo.png" alt="Logo" style="width: 100px;">
+            </a>
+            <!-- Logo End -->
+            <!-- Main Menu Start -->
+            <div class="collapse navbar-collapse main-menu">
+              <div class="nav-menu-wrapper">
+                <ul class="navbar-nav mr-auto" id="menu">
+                  <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                  <li class="nav-item submenu">
+                    <a class="nav-link">Products</a>
+                    <ul class="submenu-list">
+                      <li class="nav-item"><a class="nav-link" href="product/call-management-crm">Call
+                          Management CRM</a>
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="product/lead-management-crm">Lead
+                          Management CRM</a>
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="product/auto-dialer-software">Auto
+                          Dialer</a>
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="product/call-center-app">Call
+                          Center App</a>
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="product/telecaller-app">Telecaller
+                          App</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="pricing">Pricing</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
+                  <li class="nav-item"><a class="header-btn-plain track-btn" data-label="Login - Header"
+                      href="https://web.runo.in/">Login</a></li>
+                  <li class="nav-item">
+                    <a class="header-btn track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal"
+                      data-label="Book a Demo - Home Header">Request a
+                      Demo</a>
+                  </li>
+                  <div class="app-header-icons">
+                    <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank">
+                      <img src="img/app-ico.png" width="40px"></a>
+                    <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank">
+                      <img src="img/play-ico.png" width="40px"></a>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <!-- Main Menu End -->
+            <div class="navbar-toggle"></div>
+          </div>
+        </nav>
+        <div class="responsive-menu"></div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <!-- 
+            <header class="main-header">
+                <div class="header-sticky">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container" style="width: 1100px;">
+                            <a class="navbar-brand" href="https://runo.in">
+                                <img loading="lazy" src="img/logo.png" alt="Logo" style="width: 100px;">
+                            </a>
+                            <div class="collapse navbar-collapse main-menu" id="home-menu">
+                                <div class="nav-menu-wrapper">
+                                    <ul class="navbar-nav mr-auto" id="menu">
+                                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                                        <li class="nav-item submenu">
+                                            <a class="nav-link">Products</a>
+                                            <ul>
+                                                <li class="nav-item"><a class="nav-link" href="#">Call Management CRM</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#">Lead Management CRM</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#">Auto Dialer</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#">Call Center App</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#">Telecaller App</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
+                                        <li class="nav-item"><a class="header-btn-plain" href="https://web.runo.in/">Login</a></li>
+                                     
+                                        <li class="nav-item">
+                                            <a class="header-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal">Request a Demo</a>
+                                        </li>
+                                        <div class="app-header-icons">
+                                            <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" class="zoom-hover"> <img loading="lazy" src="img/app-ico.png" width="40px"></a>
+                                            <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" class="zoom-hover"> <img loading="lazy" src="img/play-ico.png" width="40px"></a>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="navbar-toggle"></div>
+                        </div>
+                    </nav>
+                    <div class="responsive-menu"></div>
+                </div>
+            </header>
+             -->
+    <div class="hero">
+      <div class="container">
+        <!-- Header Start -->
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <!-- Hero Content Start -->
+            <div class="hero-content">
+              <div class="banner-cont">
+                <div class="section-title dark-section text-center wow fadeInUpCustom" data-wow-delay="0.3s"
+                  style="width: 100%">
+                  <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
+                    AI-Powered SIM-Based <br>Call Management CRM
+                  </h1>
+                  <p>2x Calling Productivity in Just 2 Weeks. Earn Trust on Every Call.
+                  </p>
+                </div>
+              </div>
+              <!-- Hero Buttons -->
+              <div class="hero-body wow fadeInUpCustom mt-50 mb-8" data-wow-delay="0.6s" data-wow-duration="1s">
+                <div class="hero-btn">
+                  <a class="btn-plain track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal"
+                    data-label="Book a Demo - Home Banner">Book a Demo</a>
+                  <p class="banner-btn1">&nbsp;</p>
+                </div>
+                <div class="hero-btn">
+                  <a class="btn-default btn-highlighted track-btn" href="https://web.runo.in"
+                    data-label="Start 10-day free trial - Home Banner">Start 10-day free trial</a>
+                  <p style="font-size:13px">No Credit Card Required</p>
+                </div>
+              </div>
+              <div class="row align-items-end wow zoomIn" id="web-hero">
+                <!-- Features -->
+                <div class="col-lg-4 order-1 order-lg-2 custom-shadow-box" data-wow-delay="0.3s"
+                  style="position: relative;right: 40px;">
+                  <h3 class="fw-semibold mb-1 text-center">All That You Need in One App</h3>
+                  <div class="row" id="feature-buttons">
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn active">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <path d="M6 0h16c3.3 0 6 2.7 6 6v16c0 3.3-2.7 6-6 6H6c-3.3 0-6-2.7-6-6V6C0 2.7 2.7 0 6 0z" />
+                          <path fill="#ffffff"
+                            d="M19.8 22.3q-2.6 0-5.2-1.1-2.5-1.1-4.6-3.2-2.1-2.1-3.2-4.6-1.1-2.6-1.1-5.2 0-0.4 0.2-0.6 0.3-0.3 0.6-0.3h3.4q0.3 0 0.5 0.2 0.3 0.2 0.3 0.5l0.6 2.9q0 0.3-0.1 0.6 0 0.2-0.2 0.4l-2 2q0.4 0.8 1 1.5 0.5 0.7 1.2 1.4 0.7 0.6 1.4 1.2 0.7 0.5 1.5 1l1.9-2q0.2-0.1 0.5-0.2 0.3-0.1 0.6-0.1l2.9 0.6q0.3 0.1 0.5 0.3 0.2 0.2 0.2 0.5v3.4q0 0.3-0.3 0.6-0.2 0.2-0.6 0.2zM8.2 12.3l1.4-1.3-0.4-2H7.4q0.1 0.9 0.2 1.7 0.2 0.8 0.6 1.6zm7.4 7.5q0.9 0.3 1.7 0.6 0.8 0.2 1.7 0.2v-1.8l-2-0.4zm-0.8-12.5q-0.3 0-0.6-0.2-0.2-0.2-0.2-0.6 0-0.4 0.2-0.6 0.3-0.2 0.6-0.2h6.7q0.4 0 0.6 0.2 0.2 0.2 0.2 0.6 0 0.4-0.2 0.6-0.2 0.2-0.6 0.2zm0 3.4q-0.4 0-0.6-0.3-0.2-0.2-0.2-0.6 0-0.3 0.2-0.6 0.2-0.2 0.6-0.2h6.7q0.3 0 0.6 0.2 0.2 0.3 0.2 0.6 0 0.4-0.2 0.6-0.3 0.3-0.6 0.3zm0 3.3q-0.4 0-0.6-0.2-0.3-0.3-0.3-0.6 0-0.4 0.3-0.6 0.2-0.3 0.6-0.3h6.6q0.4 0 0.6 0.3 0.3 0.2 0.3 0.6 0 0.3-0.3 0.6-0.2 0.2-0.6 0.2z" />
+                        </svg>
+                        AI Call Summaries
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <mask id="mask0_258_1119" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4"
+                            width="20" height="20">
+                            <rect x="4" y="4" width="20" height="20" />
+                          </mask>
+                          <g mask="url(#mask0_258_1119)">
+                            <path
+                              d="M13.1667 19C12.2917 19 11.4758 18.8472 10.7188 18.5417C9.96189 18.2361 9.29175 17.8194 8.70841 17.2917C8.54175 17.1389 8.46536 16.9549 8.47925 16.7396C8.49314 16.5243 8.59036 16.3403 8.77091 16.1875C8.95147 16.0347 9.1598 15.9618 9.39591 15.9688C9.63203 15.9757 9.84036 16.0556 10.0209 16.2083C10.4654 16.5694 10.948 16.8472 11.4688 17.0417C11.9897 17.2361 12.5556 17.3333 13.1667 17.3333C14.5556 17.3333 15.7362 16.8472 16.7084 15.875C17.6806 14.9028 18.1667 13.7222 18.1667 12.3333C18.1667 10.9444 17.6806 9.76389 16.7084 8.79167C15.7362 7.81945 14.5556 7.33334 13.1667 7.33334C12.014 7.33334 10.9966 7.68056 10.1147 8.37501C9.23272 9.06945 8.64591 9.95139 8.35425 11.0208C8.2848 11.2569 8.1598 11.4653 7.97925 11.6458C7.79869 11.8264 7.59036 11.9167 7.35425 11.9167C7.11814 11.9167 6.92716 11.8229 6.78133 11.6354C6.6355 11.4479 6.59036 11.2361 6.64591 11C6.96536 9.47223 7.72578 8.20139 8.92716 7.18751C10.1286 6.17362 11.5417 5.66667 13.1667 5.66667C15.0279 5.66667 16.6042 6.31251 17.8959 7.60417C19.1876 8.89584 19.8334 10.4722 19.8334 12.3333C19.8334 13.1111 19.7084 13.8438 19.4584 14.5313C19.2084 15.2188 18.8612 15.8472 18.4167 16.4167L21.7501 19.75C21.9029 19.9028 21.9792 20.0972 21.9792 20.3333C21.9792 20.5694 21.9029 20.7639 21.7501 20.9167C21.5973 21.0695 21.4029 21.1458 21.1667 21.1458C20.9306 21.1458 20.7362 21.0695 20.5834 20.9167L17.2501 17.5833C16.6806 18.0278 16.0522 18.375 15.3647 18.625C14.6772 18.875 13.9445 19 13.1667 19ZM12.8959 13.4583L13.6667 11.0625C13.7084 10.9514 13.7744 10.8576 13.8647 10.7813C13.9549 10.7049 14.0626 10.6667 14.1876 10.6667H14.6876C14.7987 10.6667 14.8959 10.6944 14.9792 10.75C15.0626 10.8056 15.132 10.8819 15.1876 10.9792L16.2917 13.1667C16.4723 13.1667 16.6216 13.2257 16.7397 13.3438C16.8577 13.4618 16.9167 13.6111 16.9167 13.7917C16.9167 13.9722 16.8577 14.1215 16.7397 14.2396C16.6216 14.3576 16.4723 14.4167 16.2917 14.4167H15.9167C15.8056 14.4167 15.698 14.3854 15.5938 14.3229C15.4897 14.2604 15.4098 14.1736 15.3542 14.0625L14.5417 12.4583L13.6251 15.2708C13.5834 15.3958 13.514 15.4931 13.4167 15.5625C13.3195 15.6319 13.2084 15.6667 13.0834 15.6667H12.7084C12.5834 15.6667 12.4688 15.6285 12.3647 15.5521C12.2605 15.4757 12.1876 15.375 12.1459 15.25L10.9584 11.3333L10.0209 14C9.97925 14.125 9.90633 14.2257 9.80216 14.3021C9.698 14.3785 9.57647 14.4167 9.43758 14.4167H6.29175C6.11119 14.4167 5.96189 14.3576 5.84383 14.2396C5.72578 14.1215 5.66675 13.9722 5.66675 13.7917C5.66675 13.6111 5.72578 13.4618 5.84383 13.3438C5.96189 13.2257 6.11119 13.1667 6.29175 13.1667H9.00008L10.2292 9.60417C10.2709 9.47917 10.3438 9.38195 10.448 9.31251C10.5522 9.24306 10.6667 9.20834 10.7917 9.20834H11.1876C11.3265 9.20834 11.4445 9.25001 11.5417 9.33334C11.639 9.41667 11.7084 9.52084 11.7501 9.64584L12.8959 13.4583Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                        AI Sentiment Analysis
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <path
+                            d="M11.2211 17.1137C11.4247 17.2579 11.6683 17.3349 11.9177 17.334V17.3307C12.153 17.3312 12.3832 17.2626 12.5798 17.1334C12.7763 17.0042 12.9307 16.8202 13.0236 16.604L13.5344 15.0507C13.6524 14.6988 13.8506 14.3792 14.1134 14.1171C14.3762 13.8551 14.6963 13.6577 15.0486 13.5407L16.5303 13.059C16.7689 12.9752 16.9751 12.8182 17.1193 12.6104C17.2637 12.4027 17.3388 12.1546 17.3339 11.9017C17.3291 11.6488 17.2447 11.4038 17.0926 11.2016C16.9405 10.9995 16.7286 10.8504 16.4869 10.7757L15.0244 10.3007C14.6707 10.183 14.3492 9.98437 14.0856 9.72066C13.822 9.45694 13.6236 9.13538 13.5061 8.78153L13.0244 7.3007C12.9404 7.06485 12.785 6.86101 12.5798 6.71752C12.3747 6.57404 12.1299 6.49802 11.8796 6.50004C11.6292 6.50206 11.3857 6.58201 11.1829 6.72877C10.98 6.87555 10.8279 7.08186 10.7477 7.31903L10.2619 8.81236C10.1448 9.15592 9.95113 9.46839 9.69562 9.72621C9.44011 9.98402 9.1294 10.1805 8.78691 10.3007L7.30608 10.7765C7.12993 10.8381 6.97053 10.9399 6.84046 11.0737C6.71039 11.2075 6.61323 11.3697 6.55665 11.5475C6.50007 11.7254 6.48562 11.9139 6.51444 12.0983C6.54328 12.2827 6.61458 12.4578 6.72274 12.6098C6.87015 12.8173 7.07923 12.9731 7.32024 13.0548L8.78191 13.529C9.1366 13.6477 9.45874 13.8474 9.72274 14.1123C9.79363 14.1827 9.85988 14.2576 9.92108 14.3365C10.0871 14.5513 10.2153 14.7928 10.3002 15.0507L10.7819 16.5298C10.864 16.7655 11.0175 16.9696 11.2211 17.1137ZM10.9094 13.5723C10.8165 13.4509 10.7154 13.3359 10.6069 13.2282H10.6094C10.207 12.8255 9.71623 12.5222 9.17608 12.3423L7.84274 11.919L9.18524 11.4824C9.71653 11.2984 10.1984 10.9948 10.5936 10.5949C10.9871 10.1924 11.2837 9.70569 11.4611 9.17153L11.8902 7.8532L12.3202 9.1757C12.4998 9.71483 12.8028 10.2045 13.2052 10.6058C13.6075 11.007 14.0981 11.3086 14.6378 11.4865L15.9869 11.9215L14.6628 12.3507C14.1241 12.5297 13.6347 12.832 13.2333 13.2335C12.832 13.6349 12.5299 14.1245 12.3511 14.6632L11.9219 15.9815L11.4927 14.6607C11.3617 14.2673 11.1644 13.8992 10.9094 13.5723ZM17.61 21.3198C17.4513 21.2067 17.3318 21.0467 17.2683 20.8623L16.995 20.0232C16.9418 19.8637 16.8526 19.7185 16.7342 19.599C16.6154 19.4799 16.4704 19.3903 16.3108 19.3373L15.485 19.0682C15.293 19.0037 15.1263 18.8801 15.0092 18.7148C14.8948 18.5547 14.8335 18.3626 14.8342 18.1657C14.8344 17.9676 14.8964 17.7744 15.0117 17.6132C15.126 17.4512 15.2888 17.3295 15.4767 17.2657L16.315 16.994C16.4708 16.9387 16.6119 16.8484 16.7275 16.7302C16.8431 16.6118 16.93 16.4687 16.9817 16.3115L17.2517 15.4848C17.3152 15.298 17.4352 15.1355 17.5951 15.0197C17.7549 14.9041 17.9468 14.8409 18.1442 14.839C18.3416 14.8371 18.5347 14.8965 18.6968 15.0091C18.8588 15.1217 18.982 15.2817 19.0492 15.4673L19.3233 16.3123C19.377 16.4707 19.4666 16.6146 19.5852 16.7326C19.7038 16.8506 19.848 16.9395 20.0067 16.9923L20.8333 17.2615C21.0239 17.3212 21.1908 17.4392 21.3106 17.599C21.4303 17.7588 21.4966 17.9522 21.5002 18.1519C21.5038 18.3515 21.4444 18.5472 21.3306 18.7112C21.2168 18.8752 21.0541 18.9992 20.8658 19.0657L20.0208 19.3398C19.8624 19.3938 19.7185 19.4833 19.6 19.6015C19.4814 19.7205 19.3921 19.8654 19.3392 20.0248L19.0708 20.849C19.0063 21.041 18.8822 21.2073 18.7167 21.324C18.5567 21.4391 18.3646 21.5009 18.1675 21.5007C17.9673 21.5007 17.7721 21.4374 17.61 21.3198ZM16.7512 18.1675C17.0786 18.2838 17.3758 18.4721 17.621 18.7185C17.8662 18.965 18.0529 19.2633 18.1675 19.5915C18.2833 19.2648 18.4705 18.9681 18.7156 18.723C18.9607 18.4779 19.2574 18.2906 19.5842 18.1748C19.2522 18.0587 18.9505 17.8693 18.7017 17.6207C18.4558 17.3758 18.2681 17.0787 18.1525 16.7515C18.0374 17.0765 17.8519 17.372 17.6093 17.6169C17.3673 17.8613 17.0742 18.0493 16.7512 18.1675Z"
+                            fill="white" />
+                        </svg>
+                        AI Sales Assistant
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <mask id="mask0_258_1149" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4"
+                            width="20" height="20">
+                            <rect x="4" y="4" width="20" height="20" />
+                          </mask>
+                          <g mask="url(#mask0_258_1149)">
+                            <path
+                              d="M14.0001 17.75C15.0417 17.75 15.9272 17.3854 16.6563 16.6562C17.3855 15.9271 17.7501 15.0417 17.7501 14C17.7501 12.9583 17.3855 12.0729 16.6563 11.3437C15.9272 10.6146 15.0417 10.25 14.0001 10.25C12.9584 10.25 12.073 10.6146 11.3438 11.3437C10.6147 12.0729 10.2501 12.9583 10.2501 14C10.2501 15.0417 10.6147 15.9271 11.3438 16.6562C12.073 17.3854 12.9584 17.75 14.0001 17.75ZM14.0001 14.8333C13.764 14.8333 13.5661 14.7535 13.4063 14.5937C13.2466 14.434 13.1667 14.2361 13.1667 14C13.1667 13.7639 13.2466 13.566 13.4063 13.4062C13.5661 13.2465 13.764 13.1667 14.0001 13.1667C14.2362 13.1667 14.4341 13.2465 14.5938 13.4062C14.7536 13.566 14.8334 13.7639 14.8334 14C14.8334 14.2361 14.7536 14.434 14.5938 14.5937C14.4341 14.7535 14.2362 14.8333 14.0001 14.8333ZM14.0001 22.3333C12.8473 22.3333 11.764 22.1146 10.7501 21.6771C9.73619 21.2396 8.85425 20.6458 8.10425 19.8958C7.35425 19.1458 6.7605 18.2639 6.323 17.25C5.8855 16.2361 5.66675 15.1528 5.66675 14C5.66675 12.8472 5.8855 11.7639 6.323 10.75C6.7605 9.7361 7.35425 8.85416 8.10425 8.10416C8.85425 7.35416 9.73619 6.76041 10.7501 6.32291C11.764 5.88541 12.8473 5.66666 14.0001 5.66666C15.1529 5.66666 16.2362 5.88541 17.2501 6.32291C18.264 6.76041 19.1459 7.35416 19.8959 8.10416C20.6459 8.85416 21.2397 9.7361 21.6772 10.75C22.1147 11.7639 22.3334 12.8472 22.3334 14C22.3334 15.1528 22.1147 16.2361 21.6772 17.25C21.2397 18.2639 20.6459 19.1458 19.8959 19.8958C19.1459 20.6458 18.264 21.2396 17.2501 21.6771C16.2362 22.1146 15.1529 22.3333 14.0001 22.3333ZM14.0001 20.6667C15.8612 20.6667 17.4376 20.0208 18.7292 18.7292C20.0209 17.4375 20.6667 15.8611 20.6667 14C20.6667 12.1389 20.0209 10.5625 18.7292 9.27082C17.4376 7.97916 15.8612 7.33332 14.0001 7.33332C12.139 7.33332 10.5626 7.97916 9.27091 9.27082C7.97925 10.5625 7.33341 12.1389 7.33341 14C7.33341 15.8611 7.97925 17.4375 9.27091 18.7292C10.5626 20.0208 12.139 20.6667 14.0001 20.6667Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                        Call Recording
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <mask id="mask0_258_1125" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4"
+                            width="20" height="20">
+                            <rect x="4" y="4" width="20" height="20" />
+                          </mask>
+                          <g mask="url(#mask0_258_1125)">
+                            <path
+                              d="M12.8334 15.5L11.0417 13.7083C10.889 13.5555 10.6945 13.4792 10.4584 13.4792C10.2223 13.4792 10.0279 13.5555 9.87508 13.7083C9.7223 13.8611 9.64591 14.0555 9.64591 14.2917C9.64591 14.5278 9.7223 14.7222 9.87508 14.875L12.2501 17.25C12.4167 17.4167 12.6112 17.5 12.8334 17.5C13.0556 17.5 13.2501 17.4167 13.4167 17.25L18.1251 12.5417C18.2779 12.3889 18.3542 12.1944 18.3542 11.9583C18.3542 11.7222 18.2779 11.5278 18.1251 11.375C17.9723 11.2222 17.7779 11.1458 17.5417 11.1458C17.3056 11.1458 17.1112 11.2222 16.9584 11.375L12.8334 15.5ZM14.0001 22.3333C12.8473 22.3333 11.764 22.1146 10.7501 21.6771C9.73619 21.2396 8.85425 20.6458 8.10425 19.8958C7.35425 19.1458 6.7605 18.2639 6.323 17.25C5.8855 16.2361 5.66675 15.1528 5.66675 14C5.66675 12.8472 5.8855 11.7639 6.323 10.75C6.7605 9.7361 7.35425 8.85416 8.10425 8.10416C8.85425 7.35416 9.73619 6.76041 10.7501 6.32291C11.764 5.88541 12.8473 5.66666 14.0001 5.66666C15.1529 5.66666 16.2362 5.88541 17.2501 6.32291C18.264 6.76041 19.1459 7.35416 19.8959 8.10416C20.6459 8.85416 21.2397 9.7361 21.6772 10.75C22.1147 11.7639 22.3334 12.8472 22.3334 14C22.3334 15.1528 22.1147 16.2361 21.6772 17.25C21.2397 18.2639 20.6459 19.1458 19.8959 19.8958C19.1459 20.6458 18.264 21.2396 17.2501 21.6771C16.2362 22.1146 15.1529 22.3333 14.0001 22.3333ZM14.0001 20.6667C15.8612 20.6667 17.4376 20.0208 18.7292 18.7292C20.0209 17.4375 20.6667 15.8611 20.6667 14C20.6667 12.1389 20.0209 10.5625 18.7292 9.27082C17.4376 7.97916 15.8612 7.33332 14.0001 7.33332C12.139 7.33332 10.5626 7.97916 9.27091 9.27082C7.97925 10.5625 7.33341 12.1389 7.33341 14C7.33341 15.8611 7.97925 17.4375 9.27091 18.7292C10.5626 20.0208 12.139 20.6667 14.0001 20.6667Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                        Live Team Status
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <mask id="mask0_258_1172" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4"
+                            width="20" height="20">
+                            <rect x="4" y="4" width="20" height="20" />
+                          </mask>
+                          <g mask="url(#mask0_258_1172)">
+                            <path
+                              d="M9.0013 16.416H14.0013V16.041C14.0013 15.8049 13.9353 15.5862 13.8034 15.3848C13.6714 15.1834 13.4874 15.0271 13.2513 14.916C12.9735 14.791 12.6923 14.6973 12.4076 14.6348C12.1228 14.5723 11.8207 14.541 11.5013 14.541C11.1819 14.541 10.8798 14.5723 10.5951 14.6348C10.3103 14.6973 10.0291 14.791 9.7513 14.916C9.51519 15.0271 9.33116 15.1834 9.19922 15.3848C9.06727 15.5862 9.0013 15.8049 9.0013 16.041V16.416ZM16.293 15.8848H18.3763C18.5569 15.8848 18.7062 15.8257 18.8242 15.7077C18.9423 15.5896 19.0013 15.4403 19.0013 15.2598C19.0013 15.0792 18.9423 14.9299 18.8242 14.8119C18.7062 14.6938 18.5569 14.6348 18.3763 14.6348H16.293C16.1124 14.6348 15.9631 14.6938 15.8451 14.8119C15.727 14.9299 15.668 15.0792 15.668 15.2598C15.668 15.4403 15.727 15.5896 15.8451 15.7077C15.9631 15.8257 16.1124 15.8848 16.293 15.8848ZM11.5013 13.916C11.8485 13.916 12.1437 13.7945 12.3867 13.5514C12.6298 13.3084 12.7513 13.0132 12.7513 12.666C12.7513 12.3188 12.6298 12.0237 12.3867 11.7806C12.1437 11.5375 11.8485 11.416 11.5013 11.416C11.1541 11.416 10.8589 11.5375 10.6159 11.7806C10.3728 12.0237 10.2513 12.3188 10.2513 12.666C10.2513 13.0132 10.3728 13.3084 10.6159 13.5514C10.8589 13.7945 11.1541 13.916 11.5013 13.916ZM16.293 13.3848H18.3763C18.5569 13.3848 18.7062 13.3257 18.8242 13.2077C18.9423 13.0896 19.0013 12.9403 19.0013 12.7598C19.0013 12.5792 18.9423 12.4299 18.8242 12.3119C18.7062 12.1938 18.5569 12.1348 18.3763 12.1348H16.293C16.1124 12.1348 15.9631 12.1938 15.8451 12.3119C15.727 12.4299 15.668 12.5792 15.668 12.7598C15.668 12.9403 15.727 13.0896 15.8451 13.2077C15.9631 13.3257 16.1124 13.3848 16.293 13.3848ZM7.33464 20.75C6.8763 20.75 6.48394 20.5868 6.15755 20.2604C5.83116 19.934 5.66797 19.5417 5.66797 19.0833V8.91667C5.66797 8.45833 5.83116 8.06597 6.15755 7.73958C6.48394 7.41319 6.8763 7.25 7.33464 7.25H11.5013H16.5013H20.668C21.1263 7.25 21.5187 7.41319 21.8451 7.73958C22.1714 8.06597 22.3346 8.45833 22.3346 8.91667V19.0833C22.3346 19.5417 22.1714 19.934 21.8451 20.2604C21.5187 20.5868 21.1263 20.75 20.668 20.75H7.33464ZM7.33464 19.0833H20.668V8.91667H16.5013H11.5013H7.33464V19.0833Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                        Advanced Caller ID
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <mask id="mask0_258_1143" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4"
+                            width="20" height="20">
+                            <rect x="4" y="4" width="20" height="20" />
+                          </mask>
+                          <g mask="url(#mask0_258_1143)">
+                            <path
+                              d="M8.16659 19.8333C7.93047 19.8333 7.73256 19.7535 7.57284 19.5937C7.41311 19.434 7.33325 19.2361 7.33325 19C7.33325 18.7639 7.41311 18.566 7.57284 18.4062C7.73256 18.2465 7.93047 18.1667 8.16659 18.1667H8.99992V12.3333C8.99992 11.1805 9.34714 10.1562 10.0416 9.26041C10.736 8.36457 11.6388 7.77777 12.7499 7.49999V6.91666C12.7499 6.56943 12.8714 6.2743 13.1145 6.03124C13.3576 5.78818 13.6527 5.66666 13.9999 5.66666C14.3471 5.66666 14.6423 5.78818 14.8853 6.03124C15.1284 6.2743 15.2499 6.56943 15.2499 6.91666V7.49999C16.361 7.77777 17.2638 8.36457 17.9583 9.26041C18.6527 10.1562 18.9999 11.1805 18.9999 12.3333V18.1667H19.8333C20.0694 18.1667 20.2673 18.2465 20.427 18.4062C20.5867 18.566 20.6666 18.7639 20.6666 19C20.6666 19.2361 20.5867 19.434 20.427 19.5937C20.2673 19.7535 20.0694 19.8333 19.8333 19.8333H8.16659ZM13.9999 22.3333C13.5416 22.3333 13.1492 22.1701 12.8228 21.8437C12.4964 21.5174 12.3333 21.125 12.3333 20.6667H15.6666C15.6666 21.125 15.5034 21.5174 15.177 21.8437C14.8506 22.1701 14.4583 22.3333 13.9999 22.3333ZM10.6666 18.1667H17.3333V12.3333C17.3333 11.4167 17.0069 10.6319 16.3541 9.97916C15.7013 9.32638 14.9166 8.99999 13.9999 8.99999C13.0833 8.99999 12.2985 9.32638 11.6458 9.97916C10.993 10.6319 10.6666 11.4167 10.6666 12.3333V18.1667ZM13.1666 14.8333V15.6667C13.1666 15.9028 13.2464 16.1007 13.4062 16.2604C13.5659 16.4201 13.7638 16.5 13.9999 16.5C14.236 16.5 14.4339 16.4201 14.5937 16.2604C14.7534 16.1007 14.8333 15.9028 14.8333 15.6667V14.8333H15.6666C15.9027 14.8333 16.1006 14.7535 16.2603 14.5937C16.4201 14.434 16.4999 14.2361 16.4999 14C16.4999 13.7639 16.4201 13.566 16.2603 13.4062C16.1006 13.2465 15.9027 13.1667 15.6666 13.1667H14.8333V12.3333C14.8333 12.0972 14.7534 11.8993 14.5937 11.7396C14.4339 11.5799 14.236 11.5 13.9999 11.5C13.7638 11.5 13.5659 11.5799 13.4062 11.7396C13.2464 11.8993 13.1666 12.0972 13.1666 12.3333V13.1667H12.3333C12.0971 13.1667 11.8992 13.2465 11.7395 13.4062C11.5798 13.566 11.4999 13.7639 11.4999 14C11.4999 14.2361 11.5798 14.434 11.7395 14.5937C11.8992 14.7535 12.0971 14.8333 12.3333 14.8333H13.1666Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                        Follow-Up Reminder
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <mask id="mask0_258_1131" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4"
+                            width="20" height="20">
+                            <rect x="4" y="4" width="20" height="20" />
+                          </mask>
+                          <g mask="url(#mask0_258_1131)">
+                            <path
+                              d="M13.9999 23.1667C13.5416 23.1667 13.1492 23.0035 12.8228 22.6771C12.4964 22.3507 12.3333 21.9583 12.3333 21.5C12.3333 21.0417 12.4964 20.6493 12.8228 20.3229C13.1492 19.9965 13.5416 19.8333 13.9999 19.8333C14.4583 19.8333 14.8506 19.9965 15.177 20.3229C15.5034 20.6493 15.6666 21.0417 15.6666 21.5C15.6666 21.9583 15.5034 22.3507 15.177 22.6771C14.8506 23.0035 14.4583 23.1667 13.9999 23.1667ZM8.99992 8.16668C8.54159 8.16668 8.14922 8.00348 7.82284 7.67709C7.49645 7.3507 7.33325 6.95834 7.33325 6.50001C7.33325 6.04168 7.49645 5.64932 7.82284 5.32293C8.14922 4.99654 8.54159 4.83334 8.99992 4.83334C9.45825 4.83334 9.85061 4.99654 10.177 5.32293C10.5034 5.64932 10.6666 6.04168 10.6666 6.50001C10.6666 6.95834 10.5034 7.3507 10.177 7.67709C9.85061 8.00348 9.45825 8.16668 8.99992 8.16668ZM8.99992 13.1667C8.54159 13.1667 8.14922 13.0035 7.82284 12.6771C7.49645 12.3507 7.33325 11.9583 7.33325 11.5C7.33325 11.0417 7.49645 10.6493 7.82284 10.3229C8.14922 9.99654 8.54159 9.83334 8.99992 9.83334C9.45825 9.83334 9.85061 9.99654 10.177 10.3229C10.5034 10.6493 10.6666 11.0417 10.6666 11.5C10.6666 11.9583 10.5034 12.3507 10.177 12.6771C9.85061 13.0035 9.45825 13.1667 8.99992 13.1667ZM8.99992 18.1667C8.54159 18.1667 8.14922 18.0035 7.82284 17.6771C7.49645 17.3507 7.33325 16.9583 7.33325 16.5C7.33325 16.0417 7.49645 15.6493 7.82284 15.3229C8.14922 14.9965 8.54159 14.8333 8.99992 14.8333C9.45825 14.8333 9.85061 14.9965 10.177 15.3229C10.5034 15.6493 10.6666 16.0417 10.6666 16.5C10.6666 16.9583 10.5034 17.3507 10.177 17.6771C9.85061 18.0035 9.45825 18.1667 8.99992 18.1667ZM18.9999 8.16668C18.5416 8.16668 18.1492 8.00348 17.8228 7.67709C17.4964 7.3507 17.3333 6.95834 17.3333 6.50001C17.3333 6.04168 17.4964 5.64932 17.8228 5.32293C18.1492 4.99654 18.5416 4.83334 18.9999 4.83334C19.4583 4.83334 19.8506 4.99654 20.177 5.32293C20.5034 5.64932 20.6666 6.04168 20.6666 6.50001C20.6666 6.95834 20.5034 7.3507 20.177 7.67709C19.8506 8.00348 19.4583 8.16668 18.9999 8.16668ZM13.9999 18.1667C13.5416 18.1667 13.1492 18.0035 12.8228 17.6771C12.4964 17.3507 12.3333 16.9583 12.3333 16.5C12.3333 16.0417 12.4964 15.6493 12.8228 15.3229C13.1492 14.9965 13.5416 14.8333 13.9999 14.8333C14.4583 14.8333 14.8506 14.9965 15.177 15.3229C15.5034 15.6493 15.6666 16.0417 15.6666 16.5C15.6666 16.9583 15.5034 17.3507 15.177 17.6771C14.8506 18.0035 14.4583 18.1667 13.9999 18.1667ZM18.9999 18.1667C18.5416 18.1667 18.1492 18.0035 17.8228 17.6771C17.4964 17.3507 17.3333 16.9583 17.3333 16.5C17.3333 16.0417 17.4964 15.6493 17.8228 15.3229C18.1492 14.9965 18.5416 14.8333 18.9999 14.8333C19.4583 14.8333 19.8506 14.9965 20.177 15.3229C20.5034 15.6493 20.6666 16.0417 20.6666 16.5C20.6666 16.9583 20.5034 17.3507 20.177 17.6771C19.8506 18.0035 19.4583 18.1667 18.9999 18.1667ZM18.9999 13.1667C18.5416 13.1667 18.1492 13.0035 17.8228 12.6771C17.4964 12.3507 17.3333 11.9583 17.3333 11.5C17.3333 11.0417 17.4964 10.6493 17.8228 10.3229C18.1492 9.99654 18.5416 9.83334 18.9999 9.83334C19.4583 9.83334 19.8506 9.99654 20.177 10.3229C20.5034 10.6493 20.6666 11.0417 20.6666 11.5C20.6666 11.9583 20.5034 12.3507 20.177 12.6771C19.8506 13.0035 19.4583 13.1667 18.9999 13.1667ZM13.9999 13.1667C13.5416 13.1667 13.1492 13.0035 12.8228 12.6771C12.4964 12.3507 12.3333 11.9583 12.3333 11.5C12.3333 11.0417 12.4964 10.6493 12.8228 10.3229C13.1492 9.99654 13.5416 9.83334 13.9999 9.83334C14.4583 9.83334 14.8506 9.99654 15.177 10.3229C15.5034 10.6493 15.6666 11.0417 15.6666 11.5C15.6666 11.9583 15.5034 12.3507 15.177 12.6771C14.8506 13.0035 14.4583 13.1667 13.9999 13.1667ZM13.9999 8.16668C13.5416 8.16668 13.1492 8.00348 12.8228 7.67709C12.4964 7.3507 12.3333 6.95834 12.3333 6.50001C12.3333 6.04168 12.4964 5.64932 12.8228 5.32293C13.1492 4.99654 13.5416 4.83334 13.9999 4.83334C14.4583 4.83334 14.8506 4.99654 15.177 5.32293C15.5034 5.64932 15.6666 6.04168 15.6666 6.50001C15.6666 6.95834 15.5034 7.3507 15.177 7.67709C14.8506 8.00348 14.4583 8.16668 13.9999 8.16668Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                        Auto Dialer
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <mask id="mask0_258_1161" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4"
+                            width="20" height="20">
+                            <rect x="4" y="4" width="20" height="20" />
+                          </mask>
+                          <g mask="url(#mask0_258_1161)">
+                            <path
+                              d="M13.1672 21.4998V18.1665C13.1672 17.3887 13.0492 16.8123 12.8131 16.4373C12.577 16.0623 12.2645 15.6943 11.8756 15.3332L13.0631 14.1457C13.2297 14.2984 13.3895 14.4616 13.5422 14.6352C13.695 14.8089 13.8478 14.9929 14.0006 15.1873C14.195 14.9234 14.3929 14.6908 14.5943 14.4894C14.7957 14.288 15.0006 14.0901 15.2089 13.8957C15.7367 13.4095 16.2158 12.847 16.6464 12.2082C17.077 11.5693 17.3061 10.4512 17.3339 8.85399L16.6047 9.58316C16.452 9.73594 16.261 9.81233 16.0318 9.81233C15.8027 9.81233 15.6047 9.73594 15.4381 9.58316C15.2714 9.41649 15.1881 9.21858 15.1881 8.98941C15.1881 8.76024 15.2714 8.56233 15.4381 8.39566L17.5839 6.24983C17.6672 6.16649 17.7575 6.10747 17.8547 6.07274C17.952 6.03802 18.0561 6.02066 18.1672 6.02066C18.2783 6.02066 18.3825 6.03802 18.4797 6.07274C18.577 6.10747 18.6672 6.16649 18.7506 6.24983L20.9172 8.41649C21.07 8.56927 21.1499 8.76024 21.1568 8.98941C21.1638 9.21858 21.0839 9.41649 20.9172 9.58316C20.7645 9.73594 20.57 9.81233 20.3339 9.81233C20.0978 9.81233 19.9033 9.73594 19.7506 9.58316L19.0006 8.85399C18.9728 10.8401 18.6672 12.2533 18.0839 13.0936C17.5006 13.9339 16.9172 14.6179 16.3339 15.1457C15.8895 15.5484 15.5283 15.9408 15.2506 16.3227C14.9728 16.7047 14.8339 17.3193 14.8339 18.1665V21.4998C14.8339 21.7359 14.754 21.9339 14.5943 22.0936C14.4346 22.2533 14.2367 22.3332 14.0006 22.3332C13.7645 22.3332 13.5665 22.2533 13.4068 22.0936C13.2471 21.9339 13.1672 21.7359 13.1672 21.4998ZM9.16724 10.8123C9.11168 10.5345 9.07349 10.229 9.05265 9.89566C9.03182 9.56233 9.01446 9.2151 9.00057 8.85399L8.25057 9.60399C8.09779 9.75677 7.90682 9.83316 7.67765 9.83316C7.44849 9.83316 7.25057 9.74983 7.0839 9.58316C6.93113 9.43038 6.85474 9.23594 6.85474 8.99983C6.85474 8.76372 6.93113 8.56927 7.0839 8.41649L9.25057 6.24983C9.3339 6.16649 9.42418 6.10747 9.5214 6.07274C9.61863 6.03802 9.72279 6.02066 9.8339 6.02066C9.94501 6.02066 10.0492 6.03802 10.1464 6.07274C10.2436 6.10747 10.3339 6.16649 10.4172 6.24983L12.5839 8.41649C12.7506 8.58316 12.8304 8.7776 12.8235 8.99983C12.8165 9.22205 12.7297 9.41649 12.5631 9.58316C12.3964 9.73594 12.202 9.81233 11.9797 9.81233C11.7575 9.81233 11.5631 9.73594 11.3964 9.58316L10.6672 8.87483C10.6672 9.16649 10.6811 9.4408 10.7089 9.69774C10.7367 9.95469 10.7645 10.1943 10.7922 10.4165L9.16724 10.8123ZM10.9589 14.479C10.6811 14.1873 10.4138 13.847 10.1568 13.4582C9.89988 13.0693 9.67418 12.5901 9.47974 12.0207L11.0839 11.6248C11.2228 11.9998 11.3825 12.3193 11.5631 12.5832C11.7436 12.847 11.9381 13.0832 12.1464 13.2915L10.9589 14.479Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                        Auto Lead Allocation
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <mask id="mask0_258_1155" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4"
+                            width="20" height="20">
+                            <rect x="4" y="4" width="20" height="20" />
+                          </mask>
+                          <g mask="url(#mask0_258_1155)">
+                            <path
+                              d="M17.3334 20.6666C17.0973 20.6666 16.8994 20.5868 16.7397 20.4271C16.5799 20.2673 16.5001 20.0694 16.5001 19.8333V15.6666C16.5001 15.4305 16.5799 15.2326 16.7397 15.0729C16.8994 14.9132 17.0973 14.8333 17.3334 14.8333H21.5001C21.7362 14.8333 21.9341 14.9132 22.0938 15.0729C22.2536 15.2326 22.3334 15.4305 22.3334 15.6666V19.8333C22.3334 20.0694 22.2536 20.2673 22.0938 20.4271C21.9341 20.5868 21.7362 20.6666 21.5001 20.6666H17.3334ZM14.0001 13.1666C13.764 13.1666 13.5661 13.0868 13.4063 12.9271C13.2466 12.7673 13.1667 12.5694 13.1667 12.3333V8.16665C13.1667 7.93054 13.2466 7.73262 13.4063 7.5729C13.5661 7.41317 13.764 7.33331 14.0001 7.33331H21.5001C21.7362 7.33331 21.9341 7.41317 22.0938 7.5729C22.2536 7.73262 22.3334 7.93054 22.3334 8.16665V12.3333C22.3334 12.5694 22.2536 12.7673 22.0938 12.9271C21.9341 13.0868 21.7362 13.1666 21.5001 13.1666H14.0001ZM6.50008 20.6666C6.26397 20.6666 6.06605 20.5868 5.90633 20.4271C5.74661 20.2673 5.66675 20.0694 5.66675 19.8333V15.6666C5.66675 15.4305 5.74661 15.2326 5.90633 15.0729C6.06605 14.9132 6.26397 14.8333 6.50008 14.8333H14.0001C14.2362 14.8333 14.4341 14.9132 14.5938 15.0729C14.7536 15.2326 14.8334 15.4305 14.8334 15.6666V19.8333C14.8334 20.0694 14.7536 20.2673 14.5938 20.4271C14.4341 20.5868 14.2362 20.6666 14.0001 20.6666H6.50008ZM6.50008 13.1666C6.26397 13.1666 6.06605 13.0868 5.90633 12.9271C5.74661 12.7673 5.66675 12.5694 5.66675 12.3333V8.16665C5.66675 7.93054 5.74661 7.73262 5.90633 7.5729C6.06605 7.41317 6.26397 7.33331 6.50008 7.33331H10.6667C10.9029 7.33331 11.1008 7.41317 11.2605 7.5729C11.4202 7.73262 11.5001 7.93054 11.5001 8.16665V12.3333C11.5001 12.5694 11.4202 12.7673 11.2605 12.9271C11.1008 13.0868 10.9029 13.1666 10.6667 13.1666H6.50008ZM14.8334 11.5H20.6667V8.99998H14.8334V11.5ZM7.33341 19H13.1667V16.5H7.33341V19ZM18.1667 19H20.6667V16.5H18.1667V19ZM7.33341 11.5H9.83341V8.99998H7.33341V11.5Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                        Live Intuitive Dashboard
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <mask id="mask0_258_1137" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4"
+                            width="20" height="20">
+                            <rect x="4" y="4" width="20" height="20" />
+                          </mask>
+                          <g mask="url(#mask0_258_1137)">
+                            <path
+                              d="M8.16667 21.5C7.70833 21.5 7.31597 21.3368 6.98958 21.0104C6.66319 20.684 6.5 20.2917 6.5 19.8333V7.33333C6.5 7.09722 6.57986 6.89931 6.73958 6.73958C6.89931 6.57986 7.09722 6.5 7.33333 6.5C7.56944 6.5 7.76736 6.57986 7.92708 6.73958C8.08681 6.89931 8.16667 7.09722 8.16667 7.33333V19.8333H20.6667C20.9028 19.8333 21.1007 19.9132 21.2604 20.0729C21.4201 20.2326 21.5 20.4306 21.5 20.6667C21.5 20.9028 21.4201 21.1007 21.2604 21.2604C21.1007 21.4201 20.9028 21.5 20.6667 21.5H8.16667ZM9.83333 19C9.59722 19 9.39931 18.9201 9.23958 18.7604C9.07986 18.6007 9 18.4028 9 18.1667V12.3333C9 12.0972 9.07986 11.8993 9.23958 11.7396C9.39931 11.5799 9.59722 11.5 9.83333 11.5H11.5C11.7361 11.5 11.934 11.5799 12.0938 11.7396C12.2535 11.8993 12.3333 12.0972 12.3333 12.3333V18.1667C12.3333 18.4028 12.2535 18.6007 12.0938 18.7604C11.934 18.9201 11.7361 19 11.5 19H9.83333ZM14 19C13.7639 19 13.566 18.9201 13.4062 18.7604C13.2465 18.6007 13.1667 18.4028 13.1667 18.1667V8.16667C13.1667 7.93056 13.2465 7.73264 13.4062 7.57292C13.566 7.41319 13.7639 7.33333 14 7.33333H15.6667C15.9028 7.33333 16.1007 7.41319 16.2604 7.57292C16.4201 7.73264 16.5 7.93056 16.5 8.16667V18.1667C16.5 18.4028 16.4201 18.6007 16.2604 18.7604C16.1007 18.9201 15.9028 19 15.6667 19H14ZM18.1667 19C17.9306 19 17.7326 18.9201 17.5729 18.7604C17.4132 18.6007 17.3333 18.4028 17.3333 18.1667V15.6667C17.3333 15.4306 17.4132 15.2326 17.5729 15.0729C17.7326 14.9132 17.9306 14.8333 18.1667 14.8333H19.8333C20.0694 14.8333 20.2674 14.9132 20.4271 15.0729C20.5868 15.2326 20.6667 15.4306 20.6667 15.6667V18.1667C20.6667 18.4028 20.5868 18.6007 20.4271 18.7604C20.2674 18.9201 20.0694 19 19.8333 19H18.1667Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                        Call Analytics
+                      </button>
+                    </div>
+                    <div class="col-4" data-wow-duration="0.8s">
+                      <button class="feature-btn">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="20"
+                          height="20" fill="currentColor">
+                          <rect width="28" height="28" rx="6" />
+                          <path
+                            d="M18.1892 15.1841L15.9392 14.0591C15.8507 14.0149 15.752 13.9949 15.6532 14.0011C15.5545 14.0073 15.4591 14.0394 15.3767 14.0942L14.3438 14.7833C13.8697 14.5226 13.4795 14.1324 13.2188 13.6583L13.9079 12.6254C13.9627 12.543 13.9948 12.4476 14.001 12.3489C14.0072 12.2501 13.9872 12.1515 13.943 12.0629L12.818 9.81289C12.7714 9.71872 12.6993 9.6395 12.61 9.5842C12.5206 9.5289 12.4176 9.49973 12.3125 9.5C11.5666 9.5 10.8512 9.79632 10.3238 10.3238C9.79632 10.8512 9.5 11.5666 9.5 12.3125C9.50186 13.953 10.1544 15.5257 11.3143 16.6857C12.4743 17.8456 14.047 18.4981 15.6875 18.5C16.0568 18.5 16.4226 18.4273 16.7638 18.2859C17.105 18.1446 17.4151 17.9374 17.6762 17.6762C17.9374 17.4151 18.1446 17.105 18.2859 16.7638C18.4273 16.4226 18.5 16.0568 18.5 15.6875C18.5001 15.583 18.471 15.4805 18.4161 15.3916C18.3613 15.3027 18.2827 15.2308 18.1892 15.1841ZM15.6875 17.375C14.3453 17.3735 13.0585 16.8397 12.1094 15.8906C11.1603 14.9415 10.6265 13.6547 10.625 12.3125C10.6249 11.9224 10.76 11.5442 11.0073 11.2424C11.2546 10.9407 11.5988 10.7339 11.9813 10.6573L12.7885 12.2745L12.1016 13.2969C12.0502 13.3739 12.0187 13.4624 12.0097 13.5545C12.0008 13.6466 12.0147 13.7395 12.0502 13.8249C12.4527 14.7814 13.2136 15.5424 14.1702 15.9448C14.2559 15.982 14.3495 15.9972 14.4425 15.9891C14.5356 15.981 14.6251 15.9498 14.7031 15.8984L15.7304 15.2136L17.3476 16.0208C17.2704 16.4038 17.0627 16.7482 16.76 16.9951C16.4573 17.2421 16.0782 17.3763 15.6875 17.375Z"
+                            fill="white" />
+                          <path
+                            d="M14.0018 5.875C12.599 5.87469 11.2201 6.23757 9.99916 6.9283C8.77825 7.61904 7.75697 8.6141 7.03472 9.81664C6.31247 11.0192 5.91387 12.3882 5.8777 13.7905C5.84153 15.1928 6.16904 16.5806 6.82834 17.8188L5.94162 20.4789C5.86817 20.6992 5.85751 20.9355 5.91083 21.1615C5.96416 21.3874 6.07936 21.5941 6.24353 21.7582C6.4077 21.9224 6.61435 22.0376 6.84031 22.0909C7.06627 22.1443 7.30262 22.1336 7.52287 22.0602L10.183 21.1734C11.2727 21.753 12.4801 22.0767 13.7135 22.12C14.947 22.1633 16.1741 21.925 17.3017 21.4232C18.4293 20.9215 19.4278 20.1694 20.2213 19.2241C21.0149 18.2789 21.5827 17.1652 21.8816 15.9678C22.1805 14.7703 22.2026 13.5205 21.9464 12.3132C21.6902 11.1058 21.1623 9.97276 20.4027 8.99993C19.6432 8.02711 18.672 7.24009 17.5629 6.69864C16.4539 6.15718 15.236 5.87551 14.0018 5.875ZM14.0018 20.875C12.7932 20.8758 11.6058 20.5575 10.5596 19.9523C10.483 19.9079 10.3978 19.8803 10.3097 19.8713C10.2217 19.8622 10.1327 19.872 10.0486 19.9L7.12677 20.875L8.10099 17.9531C8.12907 17.8692 8.139 17.7802 8.13011 17.6921C8.12122 17.604 8.09372 17.5188 8.04943 17.4422C7.29159 16.132 6.98733 14.6083 7.18383 13.1075C7.38033 11.6067 8.06661 10.2127 9.13622 9.14171C10.2058 8.07076 11.599 7.38271 13.0995 7.18431C14.6 6.98592 16.1241 7.28826 17.4353 8.04444C18.7465 8.80062 19.7715 9.96837 20.3513 11.3665C20.9311 12.7647 21.0332 14.3151 20.642 15.7773C20.2507 17.2394 19.3878 18.5316 18.1872 19.4533C16.9866 20.375 15.5154 20.8748 14.0018 20.875Z"
+                            fill="white" />
+                        </svg>
+                        Biz Whatsapp Integration
+                      </button>
+                    </div>
+                  </div>
+                  <div class="text-center mt-12">
+                    <a href="#features" class="btn-default btn-highlighted">See All Features</a>
+                  </div>
+                </div>
+                <!-- Images -->
+                <div class="col-lg-8 order-2 order-lg-1 text-center" style="position: relative;left: 40px;z-index: -1;">
+                  <div class="images-wrapper">
+                    <img fetchpriority="high" loading="eager" id="webImage" src="img/hero-images/web/call-summaryw.webp"
+                      alt="Runo Dashboard" class="img-fluid web-image rounded" />
+                    <!--     <img loading="lazy" id="mobileImage" src="img/hero-images/mobile/1.webp" alt="Runo Mobile App"
+                                    class="img-fluid mobile-image rounded" />-->
+                  </div>
+                </div>
+              </div>
+              <script>
+                const featureMap = {
+                  "AI Call Summaries": {
+                    src: "img/hero-images/web/call-summaryw.webp",
+                    alt: "AI Call Summaries"
+                  },
+                  "AI Sentiment Analysis": {
+                    src: "img/hero-images/web/sentimentw.webp",
+                    alt: "AI Sentiment Analysis"
+                  },
+                  "AI Sales Assistant": {
+                    src: "img/hero-images/web/assistantw.webp",
+                    alt: "AI Assistant"
+                  },
+                  "Call Recording": {
+                    src: "img/hero-images/web/recordingw.webp",
+                    alt: "Call Recording"
+                  },
+                  "Live Team Status": {
+                    src: "img/hero-images/web/teamw.webp",
+                    alt: "Live Team Status"
+                  },
+                  "Advanced Caller ID": {
+                    src: "img/hero-images/web/calleridw.webp",
+                    alt: "Advanced Caller ID"
+                  },
+                  "Follow-Up Reminder": {
+                    src: "img/hero-images/web/remindw.webp",
+                    alt: "Follow-Up Reminder"
+                  },
+                  "Auto Dialer": {
+                    src: "img/hero-images/web/adw.webp",
+                    alt: "Auto Dialer"
+                  },
+                  "Auto Lead Allocation": {
+                    src: "img/hero-images/web/alaw.webp",
+                    alt: "Auto Lead Allocation"
+                  },
+                  "Live Intuitive Dashboard": {
+                    src: "img/hero-images/web/lidw.webp",
+                    alt: "Live Intuitive Dashboard"
+                  },
+                  "Call Analytics": {
+                    src: "img/hero-images/web/caw.webp",
+                    alt: "Call Analytics"
+                  },
+                  "Biz Whatsapp Integration": {
+                    src: "img/hero-images/web/wiw.webp",
+                    alt: "Biz Whatsapp Integration"
+                  }
+                };
+
+                const buttons = document.querySelectorAll('#feature-buttons .feature-btn');
+                const image = document.getElementById('webImage');
+
+                // Handle feature button clicks (no fade)
+                buttons.forEach(btn => {
+                  btn.addEventListener('click', () => {
+                    buttons.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    const text = btn.textContent.trim();
+                    const feature = featureMap[text];
+
+                    if (feature) {
+                      image.src = feature.src;
+                      image.alt = feature.alt;
+                    }
+                  });
+                });
+
+                // Set initial image on page load
+                window.addEventListener('DOMContentLoaded', () => {
+                  const activeBtn = document.querySelector('.feature-btn.active');
+                  if (activeBtn) {
+                    const text = activeBtn.textContent.trim();
+                    const feature = featureMap[text];
+                    if (feature) {
+                      image.src = feature.src;
+                      image.alt = feature.alt;
+                    }
+                  }
+                });
+
+                // Lazy preload images after full page load
+                window.addEventListener('load', () => {
+                  setTimeout(() => {
+                    Object.values(featureMap).forEach(feature => {
+                      const img = new Image();
+                      img.src = feature.src;
+                    });
+                  }, 500); // Delay to not block banner load
+                });
+              </script>
+              <!-- Mobile Hero Swiper -->
+              <div class="swiper mobile-hero-swiper wow zoomIn" id="mobile-hero">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide mobile-hero-slide"><img loading="eager" fetchpriority="high"
+                      src="img/hero-images/mobile/call-summary.webp" alt="Call Summary" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile/sentiment.webp"
+                      alt="Sentiment Analysis" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile/assistant.webp"
+                      alt="Call Assistant" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile/recording.webp"
+                      alt="Call Recording" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/team.webp"
+                      alt="Team Status" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img loading="lazy"
+                      src="img/hero-images/mobile/callerid.webp" alt="Caller ID" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img loading="lazy"
+                      src="img/hero-images/mobile/remind.webp" alt="Reminder" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img loading="lazy"
+                      src="img/hero-images/mobile/auto-dialer.webp" alt="Auto Dialer" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img loading="lazy"
+                      src="img/hero-images/mobile/auto-lead-allocation.webp" alt="Auto Lead Allocation" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img loading="lazy"
+                      src="img/hero-images/mobile/dashboard.webp" alt="Dashboard" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img loading="lazy"
+                      src="img/hero-images/mobile/call-analytics.webp" alt="Call Analytics" /></div>
+                  <div class="swiper-slide mobile-hero-slide"><img loading="lazy"
+                      src="img/hero-images/mobile/whatsapp-integration.webp" alt="Whatsapp Integration" /></div>
+                </div>
+                <div class="text-center mt-30">
+                  <a href="#features" class="btn-default btn-highlighted">See All Features</a>
+                </div>
+              </div>
+              <!-- Swiper Init Script -->
+              <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                  new Swiper('.mobile-hero-swiper', {
+                    loop: true,
+                    autoplay: {
+                      delay: 4000,
+                      disableOnInteraction: false,
+                    },
+                    allowTouchMove: true,
+                    speed: 600,
+                  });
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section End -->
+    <!-- Clients Section -->
+    <section class="clients-section py-80" style="overflow: hidden;">
+      <div class="container">
+        <div class="row">
+          <div class="clients-title text-center">
+            <h2>Big Names? Yeah, They’re All On Board</h2>
+          </div>
+        </div>
+        <div class="row mt-50">
+          <div class="clients-logos-wrapper" style="overflow: hidden; position: relative;">
+            <div class="clients-logos">
+              <!-- Logos (set 1) -->
+              <img loading="lazy" src="img/clients/hyundai.webp" alt="Hyundai" width="120" height="60">
+              <img loading="lazy" src="img/clients/mer-benz.webp" alt="Mercedes Benz" width="120" height="60">
+              <img loading="lazy" src="img/clients/upstox.webp" alt="Upstox" width="120" height="60">
+              <img loading="lazy" src="img/clients/ayurveda-logo.webp" alt="Ayurveda" width="120" height="60">
+              <img loading="lazy" src="img/clients/indira-logo.webp" alt="Indira" width="120" height="60">
+              <img loading="lazy" src="img/clients/pro-grad-logo.webp" alt="ProGrad" width="120" height="60">
+              <!-- Logos (set 2 - duplicate for infinite loop) -->
+              <img loading="lazy" src="img/clients/hyundai.webp" alt="Hyundai" width="120" height="60"
+                aria-hidden="true">
+              <img loading="lazy" src="img/clients/mer-benz.webp" alt="Mercedes Benz" width="120" height="60"
+                aria-hidden="true">
+              <img loading="lazy" src="img/clients/upstox.webp" alt="Upstox" width="120" height="60" aria-hidden="true">
+              <img loading="lazy" src="img/clients/ayurveda-logo.webp" alt="Ayurveda" width="120" height="60"
+                aria-hidden="true">
+              <img loading="lazy" src="img/clients/indira-logo.webp" alt="Indira" width="120" height="60"
+                aria-hidden="true">
+              <img loading="lazy" src="img/clients/pro-grad-logo.webp" alt="ProGrad" width="120" height="60"
+                aria-hidden="true">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="deals-section" id="dealsSection">
+      <div class="container">
+        <div class="row deals-content">
+          <div class="section-title text-center">
+            <h2>Whooosh…That’s the Sound of Closing Deals Faster</h2>
+          </div>
+          <!-- Tabs and Mobile Images -->
+          <div class="col-md-6">
+            <div class="left-tabs" id="tabContainer">
+              <div class="scroll-bar"></div>
+              <div class="scroll-indicator" id="scrollIndicator"></div>
+              <div class="btn-group-vertical w-100" id="tabButtons">
+                <div class="scroll-bord">
+                  <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
+                    <span>Boost Call Connect Rate With SIM-Based Calling</span>
+                    <p>No virtual or random numbers. Just your real number for calling, which means more trust and
+                      better pickup rates.
+                    </p>
+                  </button>
+                  <div class="mobile-tab-img d-md-none" id="mobileImg0">
+                    <img src="img/call-connect.webp" class="img-preview"
+                      alt="SIM-based calling for better call connect rates">
+                  </div>
+                </div>
+                <div class="scroll-bord">
+                  <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
+                    <span>Improve Call Efficiency With AI Call Scoring & Evaluation</span>
+                    <p>Calls are recorded, transcribed, and summarized, with AI providing sentiment analysis and quality
+                      scores.
+                    </p>
+                  </button>
+                  <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
+                    <img src="img/call-efficiency.webp" class="img-preview"
+                      alt="AI call scoring and transcription for efficiency">
+                  </div>
+                </div>
+                <div class="scroll-bord">
+                  <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
+                    <span>Never Miss Follow-Ups With Smart Reminders</span>
+                    <p>Get automated reminders to ensure timely follow-ups for every lead on calls or WhatsApp.</p>
+                  </button>
+                  <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
+                    <img src="img/follow-ups.webp" class="img-preview" alt="Automated follow-up reminders for leads">
+                  </div>
+                </div>
+                <div class="scroll-bord">
+                  <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
+                    <span>Get Instant Visibility With Live Team Tracking</span>
+                    <p>Stay on top of your team’s activity with real-time status updates for active, idle, offline and
+                      on-call
+                    </p>
+                  </button>
+                  <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
+                    <img src="img/live-tracking.webp" class="img-preview"
+                      alt="Live team tracking with real-time status updates">
+                  </div>
+                </div>
+                <div class="scroll-bord">
+                  <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
+                    <span>Improve CRM Adoption With User-Friendly Interface</span>
+                    <p>Get your team to adopt CRM faster with a simple, sales-friendly interface that’s easy to learn
+                      and use every day
+                    </p>
+                  </button>
+                  <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
+                    <img src="img/user-friendly.webp" class="img-preview"
+                      alt="Easy-to-use CRM interface for faster adoption">
+                  </div>
+                </div>
+                <div class="scroll-bord">
+                  <button class="tab-btn" data-tab-index="5" data-bs-target="#tab6">
+                    <span>Get Started With 30-Minute Quick Setup</span>
+                    <p>Set up Runo in under 30 minutes and start managing calls, leads, and follow-ups without any
+                      delays.
+                    </p>
+                  </button>
+                  <div class="mobile-tab-img d-md-none" id="mobileImg5" style="display:none;">
+                    <img src="img/30-min-setup.webp" class="img-preview" alt="Quick 30-minute CRM setup and onboarding">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Desktop Image Preview -->
+          <div class="col-md-6 d-none d-md-block">
+            <div class="tab-content text-center">
+              <div class="tab-pane fade show active" id="tab1">
+                <img src="img/call-connect.webp" class="img-preview"
+                  alt="SIM-based calling for better call connect rates">
+              </div>
+              <div class="tab-pane fade" id="tab2">
+                <img src="img/call-efficiency.webp" class="img-preview"
+                  alt="AI call scoring and transcription for efficiency">
+              </div>
+              <div class="tab-pane fade" id="tab3">
+                <img src="img/follow-ups.webp" class="img-preview" alt="Automated follow-up reminders for leads">
+              </div>
+              <div class="tab-pane fade" id="tab4">
+                <img src="img/live-tracking.webp" class="img-preview"
+                  alt="Live team tracking with real-time status updates">
+              </div>
+              <div class="tab-pane fade" id="tab5">
+                <img src="img/user-friendly.webp" class="img-preview"
+                  alt="Easy-to-use CRM interface for faster adoption">
+              </div>
+              <div class="tab-pane fade" id="tab6">
+                <img src="img/30-min-setup.webp" class="img-preview" alt="Quick 30-minute CRM setup and onboarding">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Scripts -->
+    <script>
+      const tabs = document.querySelectorAll(".tab-btn");
+      const panes = document.querySelectorAll(".tab-pane");
+      const scrollIndicator = document.getElementById("scrollIndicator");
+
+      let index = 0;
+      let autoSlideInterval;
+      let observerStarted = false;
+      let isAnimating = false;
+
+      function animateScrollIndicator(toTop) {
+        const startTop = parseFloat(scrollIndicator.style.top) || 0;
+        const startHeight = parseFloat(scrollIndicator.style.height) || 0;
+        const isMobile = window.innerWidth <= 767;
+        const targetHeight = isMobile ? 135 : 88;
+        const duration = 500;
+        const startTime = performance.now();
+
+        function animate(currentTime) {
+          const elapsed = currentTime - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          const newTop = startTop + (toTop - startTop) * progress;
+          const newHeight = startHeight + (targetHeight - startHeight) * progress;
+
+          scrollIndicator.style.top = `${newTop}px`;
+          scrollIndicator.style.height = `${newHeight}px`;
+
+          if (progress < 1) {
+            requestAnimationFrame(animate);
+          }
+        }
+
+        requestAnimationFrame(animate);
+      }
+
+      function updateScrollIndicator(i) {
+        const spacingTop = tabs[i].offsetTop + 35;
+        animateScrollIndicator(spacingTop);
+      }
+
+      function switchTab(i) {
+        if (isAnimating || index === i) return;
+        isAnimating = true;
+
+        // Hide all mobile images
+        const mobileImgs = document.querySelectorAll('.mobile-tab-img');
+        mobileImgs.forEach(img => img.style.display = 'none');
+
+        // Show active mobile image
+        if (window.innerWidth <= 767) {
+          const currentMobileImg = document.getElementById(`mobileImg${i}`);
+          if (currentMobileImg) currentMobileImg.style.display = 'block';
+        }
+
+        const currentPane = document.querySelector(".tab-pane.show.active");
+        const nextTab = tabs[i];
+        const nextPaneId = nextTab.getAttribute("data-bs-target");
+        const nextPane = document.querySelector(nextPaneId);
+
+        if (!nextPane) {
+          isAnimating = false;
+          return;
+        }
+
+        tabs.forEach(tab => tab.classList.remove("active"));
+        nextTab.classList.add("active");
+
+        currentPane.classList.remove("show", "active");
+        nextPane.classList.add("show", "active");
+
+        updateScrollIndicator(i);
+        index = i;
+        isAnimating = false;
+      }
+
+      function startAutoSlide() {
+        autoSlideInterval = setInterval(() => {
+          const nextIndex = (index + 1) % tabs.length;
+          switchTab(nextIndex);
+        }, 6500);
+      }
+
+      function resetAutoSlide() {
+        clearInterval(autoSlideInterval);
+        startAutoSlide();
+      }
+
+      tabs.forEach((tab, i) => {
+        tab.addEventListener("click", () => {
+          switchTab(i);
+          resetAutoSlide();
+        });
+      });
+
+      function observeSection() {
+        const section = document.getElementById("dealsSection");
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting && !observerStarted) {
+              observerStarted = true;
+              updateScrollIndicator(0);
+              startAutoSlide();
+            }
+          });
+        }, {
+          threshold: 0.3
+        });
+
+        observer.observe(section);
+      }
+
+      document.addEventListener("DOMContentLoaded", observeSection);
+    </script>
+    <section class="cloud-tech-section">
+      <div class="container">
+        <h2>
+          Beyond Cloud Technology:
+          Built for Modern, Personalized Outreach
+        </h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              Cloud telephony solved the problems of the past, but sales has moved on. Personalised outreach is the
+              future. Customers want to see a real number, talk to a real person, and trust who’s calling. Masked or
+              landline numbers make your calls feel robotic and impersonal. SIM-based calling builds that trust, which
+              is why many teams already use it, but they often lack a proper CRM to track leads and manage performance,
+              thinking cloud telephony
+              is the only way
+            </p>
+          </div>
+          <div class=" col-md-6">
+            <p>
+              to get there. Runo bridges this gap. It combines SIM-based calling with a powerful CRM that’s built for
+              modern sales teams. You get better call connect rates, clear visibility, and a sales process your team
+              will actually follow, without needing cloud telephony. This isn’t a workaround. It’s a new category built
+              for how sales should work today.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Optionally disable demo -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="section-title text-center">
+          <h2>Built for Doers, Dreamers, and
+            Deal Closers: Peep In.
+          </h2>
+          <p class="feat-text">Manage calls, track insights, and close deals, everything from your mobile phone</p>
+        </div>
+        <!-- Desktop Layout -->
+        <div class="row d-none d-md-flex">
+          <!-- Feature card 3 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/3.webp" class="img-fluid mb-2" alt="Live Team Status">
+            <h5>Live Team Status</h5>
+            <p class="feat-text">See the real-time status (e.g., available, on call, on break) of every agent on your
+              team
+            </p>
+          </div>
+          <!-- Feature card 5 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/5.webp" class="img-fluid mb-2" alt="AI Sentiment Analysis">
+            <h5>AI Sentiment Analysis</h5>
+            <p class="feat-text">Get insights into how leads or customers felt during the call.</p>
+          </div>
+          <!-- Feature card 2 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
+            <h5>Call Recording</h5>
+            <p class="feat-text">Monitor call quality and train your team effectively with recordings.</p>
+          </div>
+          <!-- Feature card 8 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/8.webp" class="img-fluid mb-2" alt="AI Call Summaries">
+            <h5>AI Call Summaries</h5>
+            <p class="feat-text">Save time reviewing interactions with quick, AI summaries of call recordings</p>
+          </div>
+          <!-- Feature card 9 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Dashboards">
+            <h5>Real-Time Dashboards</h5>
+            <p class="feat-text">Access live performance metrics and team activity instantly via clear dashboards</p>
+          </div>
+          <!-- Feature card 7 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+            <h5>Auto Dialer</h5>
+            <p class="feat-text">Boost calling efficiency by automating the dialing process for your sales reps</p>
+          </div>
+          <!-- Feature card 4 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/4.webp" class="img-fluid mb-2" alt="AI Chat Assistant">
+            <h5>AI Chat Assistant</h5>
+            <p class="feat-text">Ask for insights or have AI perform actions like scheduling calls.</p>
+          </div>
+          <!-- Feature card 10 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+            <h5>Auto Lead Allocation</h5>
+            <p class="feat-text">Instantly assign new leads to the right reps automatically, improving response time</p>
+          </div>
+          <!-- Feature card 12 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
+            <h5>Interaction Timeline</h5>
+            <p class="feat-text">Easily review the entire communication history with a lead in one consolidated timeline
+              view
+            </p>
+          </div>
+          <!-- Feature card 14 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/14.webp" class="img-fluid mb-2" alt="Funnel Management">
+            <h5>Funnel Management</h5>
+            <p class="feat-text">Visually manage your sales pipeline and easily move deals between stages</p>
+          </div>
+          <!-- Feature card 6 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+            <h5>Follow-Up Notifications</h5>
+            <p class="feat-text">Receive automatic reminders for all upcoming follow-up activities to stay on track</p>
+          </div>
+          <!-- Feature card 1 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
+            <h5>Advanced Caller ID</h5>
+            <p class="feat-text">Displays caller's name and recent conversation details before you answer.</p>
+          </div>
+          <!-- Feature card 11 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/11.webp" class="img-fluid mb-2" alt="Message Templates">
+            <h5>Message Templates</h5>
+            <p class="feat-text">Use professional, natural-sounding message templates for faster responses</p>
+          </div>
+          <!-- Feature card 13 -->
+          <div class="col-md-4 mb-4 text-center zoom-hover">
+            <img loading="lazy" src="img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
+            <h5>CRM Customisation</h5>
+            <p class="feat-text">Easily adapt the CRM by modifying custom data fields to match your specific process</p>
+          </div>
+        </div>
+        <!-- Desktop Layout -->
+        <!-- Mobile Swiper Layout -->
+        <!-- Mobile Swiper Layout (14 Features) -->
+        <div class="swiper-container d-block d-md-none mt-4">
+          <div class="swiper-wrapper text-center">
+            <!-- Feature Slides -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/3.webp" class="img-fluid mb-2" alt="Live Team Status">
+              <h5>Live Team Status</h5>
+              <p class="feat-text">See the real-time status (e.g., available, on call, on break) of every agent on your
+                team
+              </p>
+            </div>
+            <!-- Feature card 5 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/5.webp" class="img-fluid mb-2" alt="AI Sentiment Analysis">
+              <h5>AI Sentiment Analysis</h5>
+              <p class="feat-text">Get insights into how leads or customers felt during the call.</p>
+            </div>
+            <!-- Feature card 2 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
+              <h5>Call Recording</h5>
+              <p class="feat-text">Monitor call quality and train your team effectively with recordings.</p>
+            </div>
+            <!-- Feature card 8 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/8.webp" class="img-fluid mb-2" alt="AI Call Summaries">
+              <h5>AI Call Summaries</h5>
+              <p class="feat-text">Save time reviewing interactions with quick, AI summaries of call recordings</p>
+            </div>
+            <!-- Feature card 9 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Dashboards">
+              <h5>Real-Time Dashboards</h5>
+              <p class="feat-text">Access live performance metrics and team activity instantly via clear dashboards</p>
+            </div>
+            <!-- Feature card 7 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+              <h5>Auto Dialer</h5>
+              <p class="feat-text">Boost calling efficiency by automating the dialing process for your sales reps</p>
+            </div>
+            <!-- Feature card 4 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/4.webp" class="img-fluid mb-2" alt="AI Chat Assistant">
+              <h5>AI Chat Assistant</h5>
+              <p class="feat-text">Ask for insights or have AI perform actions like scheduling calls.</p>
+            </div>
+            <!-- Feature card 10 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+              <h5>Auto Lead Allocation</h5>
+              <p class="feat-text">Instantly assign new leads to the right reps automatically, improving response time
+              </p>
+            </div>
+            <!-- Feature card 12 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
+              <h5>Interaction Timeline</h5>
+              <p class="feat-text">Easily review the entire communication history with a lead in one consolidated
+                timeline view
+              </p>
+            </div>
+            <!-- Feature card 14 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/14.webp" class="img-fluid mb-2" alt="Funnel Management">
+              <h5>Funnel Management</h5>
+              <p class="feat-text">Visually manage your sales pipeline and easily move deals between stages</p>
+            </div>
+            <!-- Feature card 6 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+              <h5>Follow-Up Notifications</h5>
+              <p class="feat-text">Receive automatic reminders for all upcoming follow-up activities to stay on track
+              </p>
+            </div>
+            <!-- Feature card 1 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
+              <h5>Advanced Caller ID</h5>
+              <p class="feat-text">Displays caller's name and recent conversation details before you answer.</p>
+            </div>
+            <!-- Feature card 11 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/11.webp" class="img-fluid mb-2" alt="Message Templates">
+              <h5>Message Templates</h5>
+              <p class="feat-text">Use professional, natural-sounding message templates for faster responses</p>
+            </div>
+            <!-- Feature card 13 -->
+            <div class="swiper-slide">
+              <img loading="lazy" src="img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
+              <h5>CRM Customisation</h5>
+              <p class="feat-text">Easily adapt the CRM by modifying custom data fields to match your specific process
+              </p>
+            </div>
+          </div>
+          <!-- Custom navigation buttons below -->
+          <div class="swiper-nav-buttons text-center">
+            <button class="swiper-custom-prev">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="swiper-custom-next">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-custom-next',
+        prevEl: '.swiper-custom-prev',
+      },
+    });
+  </script>
+  <section class="home-app-cta">
+    <div class="container">
+      <h2>
+        Get a personalized walkthrough<br>
+        of Runo in action
+      </h2>
+      <a class="btn-schedule track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal"
+        data-label="Book a Demo - Home CTA 1">Schedule Your Demo</a>
+    </div>
+  </section>
+  <!-- Demo Section Start -->
+  <section class="lead-section">
+    <div class="container">
+      <div class="row">
+        <!-- Section Title -->
+        <div class="section-title text-center">
+          <h2>Multiple Lead Sources? Or Existing
+            CRM? Worry Not!
+          </h2>
+          <p>Runo Integrates with all available lead sources and top CRMs</p>
+        </div>
+        <!-- Video Wrapper -->
+        <div>
+          <img loading="lazy" src="img/home-integration.webp" alt="Runo Integrations" class="video-thumbnail"
+            style="width: 100%; height: auto; border-radius: 12px;">
+        </div>
+        <!-- Hero Button -->
+        <div class="hero-btn demo-btn text-center">
+          <a href="https://web.runo.in" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Desktop Comparison Section -->
+  <section class="compare-web">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-title text-center">
+          <h2>Upgrade Your Workflow: Runo vs The Rest</h2>
+        </div>
+        <div class="col-lg-9">
+          <div class="row g-0 table-wrapper">
+            <div class="col-md-4 bg-white rest" style="z-index:0;margin-top: 45px;">
+              <div class="feature-cell">Setup Time</div>
+              <div class="feature-cell">Call Connect Rate</div>
+              <div class="feature-cell">Customization</div>
+              <div class="feature-cell">Lead Allocation</div>
+              <div class="feature-cell">Price</div>
+              <div class="feature-cell">Reliability</div>
+            </div>
+            <div class="col-md-4 zoom-hover">
+              <div class="highlight-box h-100">
+                <div class="highlight-inner d-flex flex-column h-100">
+                  <div class="highlight-cell" style="background:#F44336;border-radius: 17px 17px 0px 0px;"> <img
+                      loading="lazy" src="img/runo-white.png" alt="Runo Logo" class="runo-logo" width="80px"></div>
+                  <div class="highlight-cell">&lt;30 minutes</div>
+                  <div class="highlight-cell">&gt;78%</div>
+                  <div class="highlight-cell">Flexible</div>
+                  <div class="highlight-cell">Auto-Assigned</div>
+                  <div class="highlight-cell">ROI-Friendly</div>
+                  <div class="highlight-cell">Zero Downtime</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 bg-white rest" style="margin-top: -15px;">
+              <div class="rest-cell"
+                style="background:#230115;color:#fff;font-size:22px;border-radius: 20px 20px 0px 0px;">The Rest</div>
+              <div class="rest-cell lite-color">&gt;30 days</div>
+              <div class="rest-cell lite-color">&lt;30%</div>
+              <div class="rest-cell lite-color">Rigid</div>
+              <div class="rest-cell lite-color">Manual</div>
+              <div class="rest-cell lite-color">Expensive</div>
+              <div class="rest-cell lite-color">Unstable</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-50 overlap" id="credit">
+        <div class="mt-4 wow animate__fadeInUp" data-wow-delay="0.8s">
+          <a href="https://web.runo.in" class="btn-default btn-highlighted">Start 10-day free trial</a>
+          <p>No Credit Card Required</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Mobile Comparison Section -->
+  <div class="compare-mob">
+    <div class="container text-center">
+      <div class="section-title text-center">
+        <h2>
+          Upgrade Your Workflow:
+          Runo vs The Rest
+        </h2>
+      </div>
+      <div class="comparison-wrapper">
+        <!-- Header -->
+        <div class="comparison-row header-row">
+          <div class="col-runo" style="background:#fa3c32; color:#fff">Runo</div>
+          <div class="col-feature" style="font-size: 26px;">vs</div>
+          <div class="col-rest" style="background:#343a40 !important; color:#fff">The Rest</div>
+        </div>
+        <!-- Rows -->
+        <div class="comparison-row">
+          <div class="col-runo">&lt; 30 minutes</div>
+          <div class="col-feature">Setup Time</div>
+          <div class="col-rest">&gt; 30 days</div>
+        </div>
+        <div class="comparison-row">
+          <div class="col-runo">&gt; 78%</div>
+          <div class="col-feature">Call Connect Rate</div>
+          <div class="col-rest">&lt; 30%</div>
+        </div>
+        <div class="comparison-row">
+          <div class="col-runo">Flexible</div>
+          <div class="col-feature">Customization</div>
+          <div class="col-rest">Rigid</div>
+        </div>
+        <div class="comparison-row">
+          <div class="col-runo">Auto-Assigned</div>
+          <div class="col-feature">Lead Allocation</div>
+          <div class="col-rest">Manual</div>
+        </div>
+        <div class="comparison-row">
+          <div class="col-runo">ROI-Friendly</div>
+          <div class="col-feature">Price</div>
+          <div class="col-rest">Expensive</div>
+        </div>
+        <div class="comparison-row footer-row">
+          <div class="col-runo">Zero Downtime</div>
+          <div class="col-feature">Reliability</div>
+          <div class="col-rest">Unstable</div>
+        </div>
+      </div>
+      <!-- <div class="row2">
+               <div class="card2" style="background:#ff5730;color:#fff;font-size:20px">
+                 <div class="text-left wow animate__fadeInLeft">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <img src="img/runo-white.png" alt="Runo Logo" class="runo-logo" width="60px">
+                   </div>
+                 </div>
+               </div>
+               <div class="card2" style="background:#000;color:#fff;font-size:20px">
+                 <div class="text-right wow animate__fadeInRight">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2 class="val" style="color:#fff;font-size:20px">THE REST</h2>
+                   </div>
+                 </div>
+               </div>
+               </div>
+               <h2 class="compm-head">Setup Time</h2>
+               <div class="row2">
+               <div class="card2">
+                 <div class="text-left wow animate__fadeInLeft">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2 class="runo-color">&lt; 30 minutes</h2>
+                   </div>
+                 </div>
+               </div>
+               <div class="card2">
+                 <div class="text-right wow animate__fadeInRight">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2>&gt; 30 days</h2>
+                   </div>
+                 </div>
+               </div>
+               </div>
+               <h2 class="compm-head">Call Connect Rate</h2>
+               <div class="row2">
+               <div class="card2">
+                 <div class="text-left wow animate__fadeInLeft">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2 class="runo-color">&gt; 78%</h2>
+                   </div>
+                 </div>
+               </div>
+               <div class="card2">
+                 <div class="text-right wow animate__fadeInRight">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2>&lt; 30%</h2>
+                   </div>
+                 </div>
+               </div>
+               </div>
+               <h2 class="compm-head">Follow-Up Reminder</h2>
+               <div class="row2">
+               <div class="card2">
+                 <div class="text-left wow animate__fadeInLeft">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2 class="runo-color">Flexible</h2>
+                   </div>
+                 </div>
+               </div>
+               <div class="card2">
+                 <div class="text-right wow animate__fadeInRight">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2>Rigid</h2>
+                   </div>
+                 </div>
+               </div>
+               </div>
+               <h2 class="compm-head">Customization</h2>
+               <div class="row2">
+               <div class="card2">
+                 <div class="text-left wow animate__fadeInLeft">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2 class="runo-color">Auto-Assigned</h2>
+                   </div>
+                 </div>
+               </div>
+               <div class="card2">
+                 <div class="text-right wow animate__fadeInRight">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2>Manual</h2>
+                   </div>
+                 </div>
+               </div>
+               </div>
+               <h2 class="compm-head">Price</h2>
+               <div class="row2">
+               <div class="card2">
+                 <div class="text-left wow animate__fadeInLeft">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2 class="runo-color">ROI-Friendly</h2>
+                   </div>
+                 </div>
+               </div>
+               <div class="card2">
+                 <div class="text-right wow animate__fadeInRight">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2>Expensive</h2>
+                   </div>
+                 </div>
+               </div>
+               </div>
+               <h2 class="compm-head">Reliability</h2>
+               <div class="row2">
+               <div class="card2">
+                 <div class="text-left wow animate__fadeInLeft">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2 class="runo-color">Zero Downtime</h2>
+                   </div>
+                 </div>
+               </div>
+               <div class="card2">
+                 <div class="text-right wow animate__fadeInRight">
+                   <div class="wow fadeInUp" data-wow-delay="0.25s">
+                     <h2>Unstable</h2>
+                   </div>
+                 </div>
+               </div>
+               </div> -->
+      <div class="text-center overlap" id="credit">
+        <div class="mt-4">
+          <a href="https://web.runo.in" class="btn-default btn-highlighted track-btn"
+            data-label="Book a Demo - Home Comparision">Start 10-day free trial</a>
+          <p>No Credit Card Required</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Testimonial Section -->
+  <div class="our-tesimonial">
+    <!-- Security Section -->
+    <section class="security-section">
+      <div class="row align-items-center">
+        <div class="col-md-7 security-text">
+          <h2>Enterprise-grade security</h2>
+          <p>Have peace of mind that your company’s data is fully secure and
+            compliant with the latest
+            industry standard certifications.
+          </p>
+        </div>
+        <div class="col-md-5 text-md-end text-center security-badges">
+          <img src="img/security.webp" loading="lazy" alt="Security" class="img-fluid">
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row section-row align-items-center justify-content-between mb-4">
+        <div class="col-md-8">
+          <div class="section-title" style="text-align:left;width:100%">
+            <h2>
+              We’re Not Saying Runo’s Magic…
+              But People Think It Is
+            </h2>
+          </div>
+        </div>
+        <div class="col-md-4 text-md-end mt-3 mt-md-0" id="arrow-ico">
+
+        </div>
+      </div>
+      <!-- Testimonial Slider -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="testimonial-slider">
+            <div class="swiper">
+              <div class="swiper-wrapper" data-cursor-text="Drag" style="margin: 0;">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="testimonial-header">
+                      <p>RUNO is one unique mobile-based calling solution we came across 3 months
+                        back. It quickly helped us to streamline our sales process and added quality
+                        to sales pitch.
+                      </p>
+
+                    </div>
+                    <div class="testimonial-body">
+                      <div class="testimonial-line"></div>
+                      <div class="people">
+                        <div class="author-image">
+                          <figure class="image-anime">
+                            <img src="img/testimonials/surendranath.webp" loading='lazy' alt="">
+                          </figure>
+                        </div>
+                        <div class="author-content">
+                          <h3>Dr. Surendranath Reddy Kaswa</h3>
+                          <p class="author-desg">Founder - Plato Digi Education</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="testimonial-header">
+                      <p>Our calling process was fairly straightforward, but we felt there was room to improve how we
+                        tracked calls and follow-ups. Runo helped us bring in that extra layer of structure without
+                        complicating anything.
+                      </p>
+                    </div>
+                    <div class="testimonial-body">
+                      <div class="testimonial-line"></div>
+                      <div class="people">
+                        <div class="author-image">
+                          <figure class="image-anime">
+                            <img src="img/testimonials/anas-rahman.webp" loading='lazy' alt="">
+                          </figure>
+                        </div>
+                        <div class="author-content">
+                          <h3>Anas Rahman Junaid
+                          </h3>
+                          <p class="author-desg">Founder & Chief Researcher, Hurun India
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="testimonial-header">
+                      <p>Runo has transformed the way we manage our sales operations. The live dashboard and real-time
+                        tracking have made our processes more efficient and customer-focused.
+                      </p>
+                    </div>
+                    <div class="testimonial-body">
+                      <div class="testimonial-line"></div>
+                      <div class="people">
+                        <div class="author-image">
+                          <figure class="image-anime">
+                            <img src="img/testimonials/monish-patel.webp" loading='lazy' alt="">
+                          </figure>
+                        </div>
+                        <div class="author-content">
+                          <h3>Manish Patel</h3>
+                          <p class="author-desg"> Founder and MD, MSwipe
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End swiper-wrapper -->
+            </div>
+            <!-- End swiper -->
+          </div>
+
+          <div class="testimonial-arrows">
+            <div class="testimonial-nav-buttons gap-2">
+
+              <button class="testimonial-prev-btn">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="testimonial-next-btn">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- End testimonial-slider -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Page Faqs Start -->
+  <div class="page-faqs">
+    <div class="container">
+      <div class="row">
+        <div class="section-title text-center">
+          <h2>Got Doubts?
+            Let’s Smash ‘Em Together
+          </h2>
+        </div>
+        <div class="col-lg-10" style="margin:10px auto">
+          <div class="page-faqs-catagery">
+            <div class="faq-accordion page-faq-accordion" id="runo_faqs">
+              <div class="faq-accordion" id="accordionRuno">
+                <!-- FAQ Items Start -->
+                <!-- Repeat and increment id numbers -->
+                <div class="accordion-item wow fadeInUp">
+                  <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                      aria-expanded="true" aria-controls="collapse1">
+                      Is Runo really the CRM of the future? Or just a fancy gimmick?
+                    </button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                    data-bs-parent="#accordionRuno">
+                    <div class="accordion-body">
+                      Gimmick? Nah. Runo’s like the Terminator of CRMs. It doesn’t just show up, it crushes the
+                      competition and takes over. The future is here, and it’s powered by Runo.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item wow fadeInUp">
+                  <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      Can Runo handle my sales team’s chaos?
+                    </button>
+                  </h2>
+                  <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                    data-bs-parent="#accordionRuno">
+                    <div class="accordion-body">
+                      Chaos? Runo thrives on chaos. It’s like a sales team with no brakes, just pure high-octane
+                      efficiency. Bring the madness, Runo can handle it.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item wow fadeInUp">
+                  <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      Does Runo come with a manual? Because I hate reading.
+                    </button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                    data-bs-parent="#accordionRuno">
+                    <div class="accordion-body">
+                      You won’t need one. It’s like the iPhone of CRMs, no instruction manual required. You’re gonna
+                      pick it up and be like, “How did I live without this?
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item wow fadeInUp">
+                  <h2 class="accordion-header" id="heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      How much of my time is Runo gonna steal?
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                    data-bs-parent="#accordionRuno">
+                    <div class="accordion-body">
+                      Don’t worry. Runo’s not a time thief. It gives your time back. It handles the boring stuff so you
+                      can focus on the fun stuff (like, you know, making sales).
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item wow fadeInUp">
+                  <h2 class="accordion-header" id="heading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      Will Runo give me superpowers?
+                    </button>
+                  </h2>
+                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                    data-bs-parent="#accordionRuno">
+                    <div class="accordion-body">
+                      Superpowers? You’ll have X-ray vision to see every lead, teleportation to close deals faster, and
+                      invisibility to sneak past your old CRM. Basically, you’ll be unstoppable.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item wow fadeInUp">
+                  <h2 class="accordion-header" id="heading6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                      How easy is it to switch from my old CRM to Runo?
+                    </button>
+                  </h2>
+                  <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                    data-bs-parent="#accordionRuno">
+                    <div class="accordion-body">
+                      Easier than changing the channel during a boring commercial. You won’t even miss the old one.
+                      Runo’s ready to make the switch smooth like butter.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FAQ Accordion End -->
+      </div>
+      <!-- FAQs section End -->
+    </div>
+    <!-- Page FAQs Catagery End -->
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Page Faq End -->
+  <section class="home-app-cta">
+    <div class="container">
+      <h2>
+        One App To Manage Calls, <br> Follow-ups, and Sales
+      </h2>
+      <a href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal"
+        data-label="Start 10-day free trial - Home CTA 2" class="btn-schedule track-btn">
+        Schedule Your Demo
+      </a>
+      <div class="store-buttons">
+        <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank"
+          class="zoom-hover"> <img loading="lazy" src="img/ios.webp" alt="App Store" /></a>
+        <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank"
+          class="zoom-hover"> <img loading="lazy" src="img/google-play.webp" alt="Google Play"></a>
+      </div>
+      <div class="rating ">
+        <span class="stars">★★★★★</span>
+        <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
+      </div>
+    </div>
+  </section>
+  </div>
+  <footer class="bg-dark text-light pt-5 pb-4">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- About & Contact -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <h6 class="text-white fw-bold mb-3">ABOUT</h6>
+          <ul class="list-unstyled">
+            <li><a href="about-us" class="text-light text-decoration-none d-block mb-1">About Us</a></li>
+            <li><a href="newsroom" class="text-light text-decoration-none d-block mb-1">Newsroom</a></li>
+            <li><a href="partners" class="text-light text-decoration-none d-block mb-1">Become a
+                Partner</a>
+            </li>
+          </ul>
+          <h6 class="fw-bold mt-4 mb-2 text-white">Contact</h6>
+          <a href="mailto:care@runo.ai">
+            <p class="mb-1 text-white ptb-5"><i class="fas fa-envelope me-2"></i> care@runo.ai</p>
+          </a>
+          <a href="tel:+91 8179880074">
+            <p class="text-white ptb-5"><i class="fas fa-phone me-2"></i> +91 8179880074</p>
+          </a>
+        </div>
+        <!-- Products -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <h6 class="text-white fw-bold mb-3">PRODUCTS</h6>
+          <ul class="list-unstyled">
+            <li><a href="product/call-management-crm" class="text-light text-decoration-none d-block mb-1">Call
+                Management CRM</a>
+            </li>
+            <li><a href="product/lead-management-crm" class="text-light text-decoration-none d-block mb-1">Lead
+                Management System</a>
+            </li>
+            <li><a href="product/call-center-app" class="text-light text-decoration-none d-block mb-1">Call
+                Center App</a>
+            </li>
+            <li><a href="product/auto-dialer-software" class="text-light text-decoration-none d-block mb-1">Auto
+                Dialer</a>
+            </li>
+            <li><a href="product/telecaller-app" class="text-light text-decoration-none d-block mb-1">Telecaller
+                App</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Support -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <h6 class="text-white fw-bold mb-3">SUPPORT</h6>
+          <ul class="list-unstyled">
+            <li><a href="contact" class="text-light text-decoration-none d-block mb-1">Contact sales</a>
+            </li>
+            <li><a href="faq" class="text-light text-decoration-none d-block mb-1">FAQ</a></li>
+          </ul>
+        </div>
+        <!-- Resources -->
+        <div class="col-6 col-md-6 col-lg-2">
+          <h6 class="text-white fw-bold mb-3">RESOURCES</h6>
+          <ul class="list-unstyled">
+
+            <li><a href="https://docs.runo.in/" class="text-light text-decoration-none d-block mb-1">API
+                Documentation</a>
+            </li>
+            <li><a href="integrations" class="text-light text-decoration-none d-block mb-1">Integrations</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Review Images -->
+        <div class="col-12 col-md-6 col-lg-2 review">
+          <h6 class="text-white fw-bold mb-3 text-center">Review Us</h6>
+          <a href="https://www.g2.com/products/runo-call-management-crm/reviews" target="_blank"><img loading="lazy"
+              src="img/reviews/1.webp" alt="G2 Review" class="img-fluid rounded mt-20"></a>
+          <a href="https://www.capterra.com/p/214472/Call-Management-CRM/" target="_blank"> <img loading="lazy"
+              src="img/reviews/2.webp" alt="Capterra" class="img-fluid rounded mt-20"></a>
+          <a href="https://crozdesk.com/software/runo-call-management-crm" target="_blank"> <img loading="lazy"
+              src="img/reviews/3.webp" alt="Crozdesk Rating" class="img-fluid rounded mt-20"></a>
+          <a href="https://crozdesk.com/software/runo-call-management-crm" target="_blank"> <img loading="lazy"
+              src="img/reviews/4.webp" alt="Crozdesk Badge" class="img-fluid rounded-circle mt-20 badge-ico"
+              style="width:100px;"></a>
+        </div>
+      </div>
+      <!-- Bottom Row -->
+      <div class="row align-items-center text-center text-md-start mb-20 mt-10">
+        <div class="col-md-5 mb-3 mb-md-0">
+          <a href="/"> <img loading="lazy" src="img/runo-white.png" alt="Runo Logo" class="img-fluid" width="200px"></a>
+          <!--  <p class="text-white mt-20">Your partner in digital transformation smart solutions for smarter businesses</p>-->
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h6 class="text-white fw-semibold mb-20">Get the app</h6>
+          <div class="footer-app-icons">
+            <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" class="zoom-hover"
+              target="_blank"><img loading="lazy" src="img/ios.webp" alt="App Store" style="width: 130px;"></a>
+            <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" class="zoom-hover"
+              target="_blank"><img loading="lazy" src="img/google-play.webp" alt="Google Play"
+                style="width: 130px;"></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-semibold text-white mb-20">Follow Us</h6>
+          <!-- Footer Social Link Start -->
+          <div class="footer-social-links">
+            <ul>
+              <li><a href="https://www.facebook.com/runo.in/"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="https://www.instagram.com/runo.in/#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li><a href="https://www.youtube.com/channel/UCff-NGVdfGJgMLtyZlzVGIA"><i
+                    class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="https://in.linkedin.com/company/runo-crm"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <!-- Footer Social Link End -->
+        </div>
+      </div>
+      <!-- Footer Copyright -->
+      <div class="footer-copyright">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <div class="footer-copyright-text">
+              <p>&copy; 2025 Runo. All Rights Reserved.</p>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="terms-and-conditions">Terms & Conditions</a></li>
+                <li><a href="privacy-policy">Privacy Policy</a></li>
+                <li><a href="cancellation-and-refund-policy">Usage Policy</a></li>
+                <li><a href="data-security">Data Security</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Core Libraries (Deferred) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <!-- Plugins (Deferred) -->
+  <script src="js/jquery.slicknav.js" defer></script>
+  <script src="js/jquery.magnific-popup.min.js" defer></script>
+  <script src="js/SmoothScroll.js" defer></script>
+  <script src="js/parallaxie.js" defer></script>
+  <!-- WOW.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
+  <!-- Custom JS (Deferred) -->
+  <script src="js/function.js" defer></script>
+  <!-- UTM Tracker -->
+  <script>
+    /*Testimonials Slider */
+    function updateNavState(swiper) {
+      const prevBtn = document.querySelector(".testimonial-prev-btn");
+      const nextBtn = document.querySelector(".testimonial-next-btn");
+
+      if (swiper.isBeginning) {
+        prevBtn.classList.add("swiper-button-disabled");
+      } else {
+        prevBtn.classList.remove("swiper-button-disabled");
+      }
+
+      if (swiper.isEnd) {
+        nextBtn.classList.add("swiper-button-disabled");
+      } else {
+        nextBtn.classList.remove("swiper-button-disabled");
+      }
+    }
+
+
+    const params = new URLSearchParams(window.location.search);
+    const utmSource = params.get("utm_source");
+    const utmCampaign = params.get("utm_campaign");
+    if (utmSource) localStorage.setItem("utm_source", utmSource);
+    if (utmCampaign) localStorage.setItem("utm_campaign", utmCampaign);
+
+    // Sticky Header and Preloader JS
+
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('.header-sticky');
+      if (window.scrollY > 100) {
+        header?.classList.add('active');
+      } else {
+        header?.classList.remove('active');
+      }
+    });
+
+    window.addEventListener('load', function () {
+      const preloader = document.querySelector('.runo-preloader');
+      if (preloader) {
+        preloader.style.opacity = '0';
+        preloader.style.transition = 'opacity 0.5s ease';
+        setTimeout(() => (preloader.style.display = 'none'), 300);
+      }
+    });
+
+    //Lazy-load PopupSmart Chat Widget after 3s to improve INP 
+
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const script = document.createElement('script');
+        script.src = 'https://popupsmart.com/freechat.js';
+        script.onload = () => {
+          window.start.init({
+            title: 'Hi there ✌️',
+            message: 'How can we help you? Just send us a message now to get assistance.',
+            color: '#F9754E',
+            position: 'right',
+            placeholder: 'Enter your message',
+            withText: 'Write with',
+            viaWhatsapp: 'Or write us directly via Whatsapp',
+            gty: 'Go to your',
+            awu: 'and write us',
+            connect: 'Connect now',
+            button: 'Write us',
+            device: 'everywhere',
+            logo: 'https://d2r80wdbkwti6l.cloudfront.net/YaOSMtQDnhkgfH0fvFI3UkBR8O9UbXl5.jpg',
+            person: 'https://runo.ai/img/chat-bot.jpg',
+            services: [{
+              name: 'whatsapp',
+              content: '+918179880074'
+            },
+            {
+              name: 'mail',
+              content: 'care@runo.ai'
+            },
+            {
+              name: 'phone',
+              content: '+918179880074'
+            },
+            ],
+          });
+        };
+        document.body.appendChild(script);
+      }, 6000);
+    });
+  </script>
+</body>
+
+</html>
