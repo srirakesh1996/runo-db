@@ -7,8 +7,6 @@ define('DB_HOST', 'ls-2cbf013e36d9da5c471e289f9069efd752a5931a.cfm66se44mq6.ap-s
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', '');
 
-
-
 /**#@+
  * Authentication Unique Keys and Salts.
  * You can generate these at: https://api.wordpress.org/secret-key/1.1/salt/
